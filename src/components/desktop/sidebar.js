@@ -19,6 +19,7 @@ class Sidebar extends Component {
 
     const styles = StyleSheet.create({
         cont: {
+            zIndex: '9999',
             position: 'fixed',
             top: '0px',
             bottom: '0px',

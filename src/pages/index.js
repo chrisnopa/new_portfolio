@@ -1,19 +1,53 @@
-import React from 'react'
-import { Link } from 'gatsby'
-
+import React, { Component } from 'react'
+import Link from 'gatsby-link'
+import { StyleSheet, css } from 'aphrodite'
 import Layout from '../components/layout'
-import Image from '../components/image'
+import Background from '../images/office.jpg';
 
-const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+class IndexPage extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {showModal: false};
+        this.handleClick = this.handleClick.bind(this);
+    }
 
-export default IndexPage
+    handleClick() {
+        this.setState(prevState => ({
+            showModal: !prevState.showModal
+        }));
+    }
+
+    render() {
+
+    const styles = StyleSheet.create({
+        cont: {
+          padding: '256px 0 0 128px',
+          color: 'rgba(255, 255, 255, 0.9)'
+        },
+        bg: {
+            zIndex: '-1',
+            position: 'fixed',
+            top: '0px',
+            right: '0px',
+            bottom: '0px',
+            left: '0px',
+            backgroundImage: `url(${Background})`,
+        },
+    });
+    
+    return (
+      <Layout>
+        <div className={css(styles.cont)}>
+          <div className={css(styles.bg)} />
+          <h1>Mike Nichols</h1>
+          <h2>User Experience/Product Development</h2>
+        </div>
+      </Layout>
+    );
+    }
+}
+
+export default IndexPage;
+
+
+
