@@ -5,7 +5,7 @@ import { StyleSheet, css } from 'aphrodite';
 
 
 
-class Sidebar extends Component {
+class Sidebar2 extends Component {
     constructor(props) {
         super(props);
         this.state = {showModal: false};
@@ -24,6 +24,7 @@ class Sidebar extends Component {
         cont: {
             position: 'fixed',
             top: '0px',
+            left: '128px',
             bottom: '0px',
             width: '128px',
             display: 'flex',
@@ -47,12 +48,11 @@ class Sidebar extends Component {
         },
         links: {
             margin: '24px 0 24px 0',
-            width: '100%'
         },
         link: {
-            margin: '0 24px 6px 24px',
             textAlign: 'center',
             fontSize: '12px',
+            padding: '6px 0 6px 0',
             fontWeight: '300'
         },
         sepone: {
@@ -80,6 +80,10 @@ class Sidebar extends Component {
             width: '32px',
             margin: '0 0 12px 0',
             color: 'rgba(255, 255, 255, 0.9)',
+        },
+        active: {
+            border: '1px solid rgba(255, 255, 255, 0.3)',
+            borderRadius: '64px'
         }
     });
     
@@ -88,9 +92,9 @@ class Sidebar extends Component {
             <div className={css(styles.initials)}>MN</div>
             <div className={css(styles.sepone)} />
             <div className={css(styles.links)}>
-                <div className={css(styles.link)}>About Me</div>
-                <div className={css(styles.link)}>Work</div>
-                <div className={css(styles.link)}>Blog</div>
+                <div className={css(styles.icon, styles.active)}><i class="far fa-smile-wink"></i></div>
+                <div className={css(styles.icon)}><i class="fas fa-briefcase"></i></div>
+                <div className={css(styles.icon)}><i class="fas fa-rss"></i></div>
             </div>
             <div className={css(styles.septwo)} />
             <div className={css(styles.social)}>
@@ -103,4 +107,4 @@ class Sidebar extends Component {
     }
 }
 
-export default Sidebar;
+export default Sidebar2;
