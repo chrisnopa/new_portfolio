@@ -3,7 +3,7 @@ import { StyleSheet, css } from 'aphrodite'
 import Layout from '../components/layout'
 import Btn from '../components/btn'
 import IntroBG from '../images/office.jpg';
-import AboutBG from '../images/aboutWork.jpg';
+import AboutBG from '../images/about-work.jpg';
 
 class IndexPage extends Component {
     constructor(props) {
