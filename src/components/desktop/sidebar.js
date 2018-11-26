@@ -41,7 +41,7 @@ class Sidebar extends Component {
             height: '64px',
             margin: '24px 0 0 0',
             backgroundColor: 'rgba(26, 26, 26, 0.1)',
-            border: '1px solid rgba(255, 255, 255, 0.9)',
+            border: '1px solid rgba(255, 255, 255, 0.3)',
             color: 'rgba(255, 255, 255, 0.9)',
             textDecoration: 'none',
         },
@@ -55,14 +55,14 @@ class Sidebar extends Component {
             width: '72px',
             height: '72px',
             textAlign: 'center',
-            fontSize: '12px',
+            fontSize: '10px',
             fontWeight: '300',
             color: '#FFF',
             textDecoration: 'none',
             transform: 'rotate(-90deg)',
         },
         sepone: {
-            flexGrow: '0',
+            flexGrow: '1',
             width: '1px',
             height: '24px',
             margin: '24px 0 0 0',
@@ -81,7 +81,7 @@ class Sidebar extends Component {
             justifyContent: 'center',
             alignItems: 'center',
             textAlign: 'center',
-            fontSize: '16px',
+            fontSize: '12px',
             height: '32px',
             width: '32px',
             margin: '0 0 12px 0',
@@ -100,9 +100,9 @@ class Sidebar extends Component {
             </div>
             <div className={css(styles.septwo)} />
             <div className={css(styles.social)}>
-                <div className={css(styles.icon)}><i class="fab fa-behance"></i></div>
-                <div className={css(styles.icon)}><i class="fab fa-dribbble"></i></div>
-                <div className={css(styles.icon)}><i class="far fa-envelope"></i></div>
+                <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>
+                <div className={css(styles.icon)}><i className="fab fa-dribbble"></i></div>
+                <div className={css(styles.icon)}><i className="far fa-envelope"></i></div>
             </div>
         </div>
     );
