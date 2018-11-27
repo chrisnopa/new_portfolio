@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { StyleSheet, css } from 'aphrodite'
 import Layout from '../components/layout'
-import Btn from '../components/btn'
+
+import Menu from '../components/menu';
 import IntroBG from '../images/office.jpg';
 import AboutBG from '../images/about-work.jpg';
+import Btn from '../components/btn'
 
 class IndexPage extends Component {
     constructor(props) {
@@ -31,6 +33,11 @@ class IndexPage extends Component {
         minHeight: '500px',
         height: '100vh',
         backgroundImage: `url(${IntroBG})`,
+      },
+      menu: {
+        position: 'absolute',
+        top: '48px',
+        right: '48px'
       },
       center: {
         width: '100%',
@@ -88,6 +95,9 @@ class IndexPage extends Component {
         <div className={css(styles.cont)}>
 
           <div className={css(styles.intro)} >
+            <div className={css(styles.menu)}>
+              <Menu />
+            </div>
             <div className={css(styles.center)}>
               <h1 className={css(styles.name)}>Mike Nichols</h1>
               <div className={css(styles.accent)}/>

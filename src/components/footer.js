@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Link from 'gatsby-link'
 import { StyleSheet, css } from 'aphrodite'
+
+import Menu from '../components/menu';
 
 class Footer extends Component {
   constructor(props) {
@@ -69,12 +70,7 @@ class Footer extends Component {
                 <p className={css(styles.infoText)}>407.460.8633</p>
             </div>
             <div className={css(styles.links)}>
-                <ul className={css(styles.pageLinks)}>
-                    <li><Link to="/" className={css(styles.link)}>Home</Link></li>
-                    <li><Link to="/about" className={css(styles.link)}>About</Link></li>
-                    <li><Link to="/work" className={css(styles.link)}>Work</Link></li>
-                    <li><Link to="/blog" className={css(styles.link)}>Blog</Link></li>
-                </ul>
+                <Menu />
                 <div className={css(styles.social)}>
                     <div className={css(styles.icon)}><i className="fab fa-youtube"></i></div>
                     <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>
