@@ -4,9 +4,7 @@ import { StyleSheet, css } from 'aphrodite'
 import Menu from '../components/menu';
 
 class Footer extends Component {
-  constructor(props) {
-    super(props);
-  }
+
     render() {
 
     const styles = StyleSheet.create({

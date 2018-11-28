@@ -3,9 +3,7 @@ import Link from 'gatsby-link'
 import { StyleSheet, css } from 'aphrodite'
 
 class Btn extends Component {
-  constructor(props) {
-    super(props);
-  }
+
     render() {
 
     const styles = StyleSheet.create({

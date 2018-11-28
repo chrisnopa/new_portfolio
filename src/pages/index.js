@@ -48,17 +48,6 @@ class IndexPage extends Component {
         fontWeight: '300',
         margin: '0 0 0 0'
       },
-      title: {
-        fontSize: '32px',
-        fontWeight: '400',
-        margin: '0 0 0 0'
-      },
-      accent: {
-        width: '64px',
-        height: '2px',
-        backgroundColor: 'rgba(128, 128, 128, 0.6)',
-        margin: '16px 0 16px 0'
-      },
       about: {
         display: 'flex',
         justifyContent: 'center',
@@ -100,16 +89,16 @@ class IndexPage extends Component {
             </div>
             <div className={css(styles.center)}>
               <h1 className={css(styles.name)}>Mike Nichols</h1>
-              <div className={css(styles.accent)}/>
-              <h2 className={css(styles.title)}>User Experience / Product Development</h2>
+              <div className="accent-bar" />
+              <h2 className="titles">User Experience / Product Development</h2>
             </div>
           </div>
 
           <div className={css(styles.about)} >
             <div className={css(styles.aboutText)}>
               <div>
-                <h2 className={css(styles.title)}>Building better experiences</h2>
-                <div className={css(styles.accent)}/>
+                <h2 className="titles">Building better experiences</h2>
+                <div className="accent-bar" />
                 <p>Over the past 16 years of my professional career, I have worked with many different clients, companies, and corporations. 
                 I’ve sketched, wireframed, prototyped, and tested. I’ve coded, integrated, debugged, and deployed. I’ve been a one-man show, 
                 a team leader, and have built a practice. In all of these endeavors, the common goal has been simply: to build better user experiences.  

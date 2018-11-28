@@ -15,9 +15,9 @@ const Blog1 = () => (
 export default Blog1
 
 export const frontmatter = {
-  title: "Shouldn't it be UE",
-  written: "08/25/2018",
-  category: "#ux #ui #winner",
-  layoutType: "blog",
-  path: "https://uxuimike.files.wordpress.com/2017/05/wyndham02.jpg?w=1180&h=500"
+  title: "Wyndham",
+  written: "SEP 05 2016",
+  layoutType: "portfolio",
+  category: "#ux #ui #winners",
+  description: "Things about the choropleth.",
 }

@@ -624,4 +624,18 @@ pre tt:after {
   }
 }
 
+/*------------------------------ Mike Stuff ----------------------------- */
+.accent-bar {
+  width: 64px;
+  height: 2px;
+  background-color: rgba(201, 222, 18, 1);
+  margin: 16px 0 16px 0
+}
+
+.titles {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 0 0;
+}
+
 
