@@ -14,9 +14,9 @@ const Blog2 = () => (
 export default Blog2
 
 export const frontmatter = {
-  title: "I am the second of the blog posts",
+  title: "I am the second of the portfolios",
   written: "11/27/2018",
-  layoutType: "blog",
+  layoutType: "portfolio",
   category: "#ux #design",
   path: "https://uxuimike.files.wordpress.com/2017/06/headbutt02.jpg?w=1280&h=400"
 }

@@ -33,6 +33,9 @@ class IndexPage extends Component {
         minHeight: '500px',
         height: '100vh',
         backgroundImage: `url(${IntroBG})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center top',
+        backgroundRepeat: 'no-repeat'
       },
       menu: {
         position: 'absolute',

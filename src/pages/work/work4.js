@@ -14,9 +14,9 @@ const Blog3 = () => (
 export default Blog3
 
 export const frontmatter = {
-  title: "The three blind mice!",
-  written: "09/25/2018",
-  layoutType: "blog",
-  category: "#ui #development",
+  title: "Born on the fourth of portfolios",
+  written: "09/26/2018",
+  layoutType: "portfolio",
+  category: "#ui #popular",
   path: "https://uxuimike.files.wordpress.com/2017/04/nielsen012.png?w=1180&h=300"
 }

@@ -15,7 +15,7 @@ class BlogIndex extends Component {
       })
       this.state = {
         tags: [
-          {value: "All Posts", active: true},
+          {value: "All Projects", active: true},
           {value: "UX", active: false},
           {value: "UI", active: false},
           {value: "Design", active: false},
@@ -33,9 +33,9 @@ class BlogIndex extends Component {
     let filter = []
 
     //Determin what pills should be turned on or off
-    if (value === "All Posts"){
+    if (value === "All Projects"){
       ta = [
-        {value: "All Posts", active: true},
+        {value: "All Projects", active: true},
         {value: "UX", active: false},
         {value: "UI", active: false},
         {value: "Design", active: false},
@@ -45,7 +45,7 @@ class BlogIndex extends Component {
       filter = []
     } else {
       ta.forEach(element => {
-        if(element.value === "All Posts") {
+        if(element.value === "All Projects") {
           element.active = false
         }else if(element.value === value) {
           element.active = !element.active
@@ -56,16 +56,16 @@ class BlogIndex extends Component {
     //Create filter list to send to fliter function
     ta.forEach(element => {
       if(element.active) {
-        if(element.value !== "All Posts"){
+        if(element.value !== "All Projects"){
           filter.push(element.value)
         }
       }
     });
 
-    //Check to see if the one button on was turned off, then turn on all posts
+    //Check to see if the one button on was turned off, then turn on all projects
     if (filter.length === 0){
       ta = [
-        {value: "All Posts", active: true},
+        {value: "All Projects", active: true},
         {value: "UX", active: false},
         {value: "UI", active: false},
         {value: "Design", active: false},
@@ -135,7 +135,7 @@ class BlogIndex extends Component {
     //Create filter list to send to fliter function
     ta.forEach(element => {
       if(element.active) {
-        if(element.value !== "All Posts"){
+        if(element.value !== "All Projects"){
           filter.push(element.value)
         }
       }
@@ -184,7 +184,7 @@ class BlogIndex extends Component {
         fontSize: '16px'
       },
       listCont: {
-        width: '60%',
+        width: '40%',
         height: '100vh',
         flexGrow: '1',
         display: 'flex',
@@ -200,7 +200,6 @@ class BlogIndex extends Component {
         }
       },
       listHeader: {
-        flexGrow: '0',
         display: 'flex',
         alignItems: 'center',
         padding: '12px 0 12px 24px',
@@ -254,9 +253,9 @@ class BlogIndex extends Component {
           <div className={css(styles.left)}>
             <div className={css(styles.lefttop)}>
               <div>
-                <h2 className="titles">Blog</h2>
+                <h2 className="titles">Work</h2>
                 <div className="accent-bar" />
-                <p className={css(styles.desc)}>Show post with the following tag(s)</p> 
+                <p className={css(styles.desc)}>Show projects with the following tag(s)</p> 
               </div>
               <div className={css(styles.tags)}>
                 {this.state.tags.map((tag, index) =>(
@@ -274,7 +273,7 @@ class BlogIndex extends Component {
                 date={edges[1].node.frontmatter.written}
                 title={edges[1].node.frontmatter.title}
                 tags={edges[1].node.frontmatter.category}
-                link={`blog/${edges[1].node.node.name}`}
+                link={`work/${edges[1].node.node.name}`}
                 bg={edges[1].node.frontmatter.path}
                 featured
               />
@@ -293,7 +292,7 @@ class BlogIndex extends Component {
                 <span className={css(styles.listCountNum)}>{this.state.filteredPosts.length}</span>
                 of
                 <span className={css(styles.listCountNum)}>{this.state.sortedPosts.length}</span>
-                posts
+                projects
               </div>
             </div>
             { this.state.filteredPosts.length < 1 &&
@@ -309,10 +308,10 @@ class BlogIndex extends Component {
                   date={post.node.frontmatter.written}
                   title={post.node.frontmatter.title}
                   tags={post.node.frontmatter.category}
-                  link={`blog/${post.node.node.name}`}
+                  link={`work/${post.node.node.name}`}
                   bg={post.node.frontmatter.path}
                 />
-            ))}
+              ))}
             </div>
           </div>
         </div>
@@ -325,7 +324,7 @@ export default BlogIndex;
 
 export const pageQuery = graphql`
   query {
-    allJavascriptFrontmatter(filter: {frontmatter: {layoutType: {eq: "blog"}}}) {
+    allJavascriptFrontmatter(filter: {frontmatter: {layoutType: {eq: "portfolio"}}}) {
       edges {
         node {
           node {

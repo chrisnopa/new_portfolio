@@ -25,6 +25,7 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
           ]}
         >
           <html lang="en" />
