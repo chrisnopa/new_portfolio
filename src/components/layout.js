@@ -4,8 +4,9 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import './layout.css'
-import Sidebar from './desktop/sidebar';
+import Sidebar from './sidebar'
 import Footer from './footer'
+import MobileMenu from './menu-mobile'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,6 +33,7 @@ const Layout = ({ children }) => (
           <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"></link>
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"></link>
         </Helmet>
+        <MobileMenu />
         <Sidebar />
         <div
           style={{

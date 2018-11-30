@@ -15,10 +15,13 @@ class BlogRow extends Component {
 
     const styles = StyleSheet.create({
         bg: {
-            backgroundImage: 'url(' + this.props.bg + ')'
+            backgroundImage: 'none',
+            '@media (min-width: 961px)': {
+                backgroundImage: 'url(' + this.props.bg + ')'
+              },
         },
         cont: {
-          backgroundColor: 'rgba(252, 252, 252, 1)',
+            backgroundColor: 'rgba(252, 252, 252, 1)',
           padding: this.props.featured ? '32px 32px 32px 96px' : '32px',
           borderBottom: '1px solid rgba(128, 128, 128, 0.1)',
           borderTop: this.props.featured ? '1px solid rgba(128, 128, 128, 0.1)' : 'none',
@@ -27,7 +30,7 @@ class BlogRow extends Component {
           ':hover': {
             backgroundColor: 'rgba(102, 102, 102, 0.85)',
             color: 'rgba(255, 255, 255, 1)',
-          }
+          },
         },
         date: {
             fontSize: '12px',

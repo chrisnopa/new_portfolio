@@ -16,14 +16,13 @@ class Sidebar extends Component {
     }
 
     render() {
-
     const styles = StyleSheet.create({
         cont: {
             display: 'none',
             '@media (min-width: 961px)': {
                 display: 'flex',
             },
-            zIndex: '9999',
+            zIndex: '99',
             position: 'fixed',
             top: '0px',
             bottom: '0px',

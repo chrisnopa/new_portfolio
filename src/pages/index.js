@@ -3,8 +3,10 @@ import { StyleSheet, css } from 'aphrodite'
 import Layout from '../components/layout'
 
 import Menu from '../components/menu';
+import IntroBGMobile from '../images/office-mobile.jpg';
 import IntroBG from '../images/office.jpg';
 import AboutBG from '../images/about-work.jpg';
+import AboutBGMobile from '../images/about-work-mobile.jpg';
 import Btn from '../components/btn'
 
 class IndexPage extends Component {
@@ -32,53 +34,71 @@ class IndexPage extends Component {
         alignItems: 'center',
         minHeight: '500px',
         height: '100vh',
-        backgroundImage: `url(${IntroBG})`,
+        backgroundImage: `url(${IntroBGMobile})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center top',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        '@media (min-width: 961px)': {
+          backgroundImage: `url(${IntroBG})`,
+        },
       },
       menu: {
+        display: 'none',
         position: 'absolute',
         top: '48px',
-        right: '48px'
+        right: '48px',
+        '@media (min-width: 961px)': {
+            display: 'block',
+        },
       },
       center: {
         width: '100%',
-        padding: '0 128px 48px 256px',
+        padding: '0 32px 48px 32px',
+        '@media (min-width: 961px)': {
+          display: 'block',
+          padding: '0 128px 48px 256px',
+        },
       },
       name: {
-        fontSize: '64px',
+        fontSize: '42px',
         fontWeight: '300',
-        margin: '0 0 0 0'
+        margin: '0 0 0 0',
+        '@media (min-width: 961px)': {
+          fontSize: '64px',
+        },
       },
       about: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '128px 128px 128px 256px',
+        padding: '0 0 0 0',
         backgroundColor: 'rgba(252, 252, 252, 1)',
         color: 'rgba(51, 51, 51, 1)',
+        '@media (min-width: 961px)': {
+          padding: '128px 128px 128px 256px',
+        },
       },
       aboutText: {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         minHeight: '780px',
-        padding: '0 400px 0 0',
-        backgroundImage: `url(${AboutBG})`,
+        padding: '0 32px 0 32px',
+        backgroundImage: `url(${AboutBGMobile})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center right',
-      },
-      aboutImg: {
-        height: '600px',
-        width: "40%",
-        backgroundColor: 'rgba(52, 0, 52, 1)', 
-        margin: '0 0 0 -300px',
+        '@media (min-width: 961px)': {
+          padding: '0 400px 0 0',
+          backgroundImage: `url(${AboutBG})`,
+        },
       },
       cta: {
-        display: 'flex',
+        display: 'block',
         alignItems: 'center',
-        margin: '12px 0 0 0'
+        margin: '12px 0 0 0',
+        '@media (min-width: 961px)': {
+          display: 'flex',
+        },
       }
     });
     

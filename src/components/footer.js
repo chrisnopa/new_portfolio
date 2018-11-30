@@ -10,21 +10,22 @@ class Footer extends Component {
     const styles = StyleSheet.create({
         cont: {
           backgroundColor: 'rgba(26, 26, 26, 0.9)',
-          display: 'flex',
-          padding: '48px 128px 48px 256px',
-          color: 'rgba(255, 255, 255, 0.6)'
-        },
-        info: {
-            
+          display: 'block',
+          padding: '24px 48px 24px 48px',
+          color: 'rgba(255, 255, 255, 0.6)',
+          '@media (min-width: 961px)': {
+            display: 'flex',
+            padding: '48px 128px 48px 256px',
+          },
         },
         links: {
             flexGrow: '1',
         },
-        pageLinks: {
-            display: 'flex',
-            justifyContent: 'flex-end',
-            listStyle: 'none',
-            margin: '0',
+        menu: {
+            display: 'none',
+            '@media (min-width: 961px)': {
+                display: 'block',
+              },
         },
         link: {
             color: 'rgba(255, 255, 255, 0.9)',
@@ -40,13 +41,20 @@ class Footer extends Component {
         },
         social: {
             display: 'flex',
-            justifyContent: 'flex-end',
+            justifyContent: 'flex-start',
             flexGrow: '1',
-            padding: '32px 0 0 0'
+            padding: '32px 0 24px 0',
+            '@media (min-width: 961px)': {
+                justifyContent: 'flex-end',
+                padding: '32px 0 0 0'
+              },
         },
         icon: {
-            padding: '0 24px 0 24px',
-            fontSize: '24px'
+            padding: '0 48px 0 0',
+            fontSize: '24px',
+            '@media (min-width: 961px)': {
+                padding: '0 24px 0 24px'
+              },
         },
         infoTitle: {
             fontSize: '12px',
@@ -68,7 +76,7 @@ class Footer extends Component {
                 <p className={css(styles.infoText)}>407.460.8633</p>
             </div>
             <div className={css(styles.links)}>
-                <Menu />
+                <div className={css(styles.menu)}><Menu /></div>
                 <div className={css(styles.social)}>
                     <div className={css(styles.icon)}><i className="fab fa-youtube"></i></div>
                     <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>

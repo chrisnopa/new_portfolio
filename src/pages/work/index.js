@@ -148,17 +148,24 @@ class BlogIndex extends Component {
     const styles = StyleSheet.create({
       cont: {
         display: 'flex',
-        padding: '0 0 0 128px',
+        padding: '0 0 0 0',
         color: 'rgba(26, 26, 26, 0.9)',
+        '@media (min-width: 961px)': {
+          padding: '0 0 0 128px',
+        },
       },
       left: {
-        width: '40%',
+        width: '100%',
         height: '100vh',
-        display: 'flex',
+        display: 'none',
         flexDirection: 'column',
         justifyContent: 'center',
         minHeight: '780px',
-        fontSize: '32px'
+        fontSize: '32px',
+        '@media (min-width: 961px)': {
+          width: '40%',
+          display: 'flex',
+        },
       },
       lefttop: {
         display: 'flex',
@@ -184,27 +191,42 @@ class BlogIndex extends Component {
         fontSize: '16px'
       },
       listCont: {
-        width: '40%',
-        height: '100vh',
+        width: '60%',
         flexGrow: '1',
         display: 'flex',
         flexDirection: 'column',
-        borderLeft: '1px solid rgba(128, 128, 128, 0.1)'
+        borderLeft: '1px solid rgba(128, 128, 128, 0.1)',
+        '@media (min-width: 961px)': {
+          height: '100vh',
+        },
       },
       list: {
         flexGrow: '1',
         overflowY: 'scroll',
-        '::-webkit-scrollbar': {
-          width: '0px',
-          background: 'transparent'
-        }
+        padding: '64px 0 0 0',
+        '@media (min-width: 961px)': {
+          '::-webkit-scrollbar': {
+            width: '0px',
+            background: 'transparent',
+          },
+          padding: '0 0 0 0',
+        },
       },
       listHeader: {
+        position: 'fixed',
+        width: '100%',
+        flexGrow: '0',
+        zIndex: '9',
         display: 'flex',
         alignItems: 'center',
-        padding: '12px 0 12px 24px',
+        padding: '12px 0 12px 96px',
+        backgroundColor: 'rgba(255, 255, 255, 1)',
         borderBottom: '1px solid rgba(128, 128, 128, 0.1)',
-        fontSize: '16px'
+        fontSize: '16px',
+        '@media (min-width: 961px)': {
+          position: 'static',
+          padding: '12px 0 12px 24px',
+        },
       },
       listSort: {
         background: 'none',
