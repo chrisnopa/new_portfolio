@@ -58,7 +58,6 @@ class Menu extends Component {
             textAlign: 'center',
             width: '96px',
             height: '96px',
-            margin: '24px 0 0 0',
             backgroundColor: 'rgba(26, 26, 26, 0.1)',
             border: '1px solid rgba(255, 255, 255, 0.3)',
             fontSize: '32px',
