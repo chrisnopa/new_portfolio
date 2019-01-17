@@ -1,18 +1,94 @@
 .cont {
-    height: 600px;
-    padding: var(--site-padding);
+    padding: 0;
+    margin: 0;
+}
+.bgmobile {
+    padding: 0;
+    margin: 0;
+}
+.mobileimg {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 60% 250px;
-    background-attachment: fixed;
-    background-size: 80%;
+    background-position: center;
+}
+.info {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../../images/hero-bar.png);
+    background-size: cover;
+}
+.title {
+    position: absolute;
+    top: -50%;
+    left: 24px;
+    max-width: 80%;
+    margin: 0;
+    padding: 24px 96px 24px 24px;
+    background-color: rgb(37, 33, 45);
+    color: rgba(255, 255, 255, .9);
+    font-size: 36px;
+    line-height: 32px;
+    border-radius: 16px;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, .15);
+}
+.title p {
+    margin: 0;
+}
+.date {
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+    margin: 0;
+}
+.tags { 
+display: none;
 }
 @media only screen and (min-width: 961px) {
     .cont {
+        position: relative;
         height: 66vh;
-        padding: var(--site-padding);
-        background-repeat: no-repeat;
-        background-position: 60% 20%;
-        background-attachment: fixed;
-        background-size: 60%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .sticky {
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 66vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bgmobile {
+        display: none;
+    }
+    .bg {
+        display: block;
+    }
+    .title {
+        top: -34px;
+        left: 176px;
+        width: 480px;
+        height: 128px;
+        padding: 36px 0 0 48px;
+    }
+    .tags { 
+        display: block;
+        padding: 0 48px 0 0;
+        color: rgba(255, 255, 255, .8);
+        font-size: 24px;
     }
 }

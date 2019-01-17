@@ -8,13 +8,39 @@ class Hero extends Component {
     render() {
     
     return (
-        <div
-            className={compStyles.cont}
-            style={{
-                backgroundColor: this.props.backgroundColor,
-                backgroundImage: `url(${this.props.backgroundImage})`
-            }}
-        />
+        <div className={compStyles.cont}>
+            <div className={compStyles.sticky}>
+                <div
+                    className={compStyles.bgmobile}
+                    style={{
+                        backgroundColor: this.props.backgroundColor,
+                    }}
+                >
+                    <img className={compStyles.mobileimg} src={this.props.backgroundMobileImage} alt='header'/>
+                </div>
+                <div
+                    className={compStyles.bg}
+                    style={{
+                        backgroundColor: this.props.backgroundColor,
+                        backgroundImage: `url(${this.props.backgroundImage})`
+                    }}
+                />
+            </div>
+            <div className={compStyles.info}>
+                <div className={compStyles.title}>
+                    <p>
+                        UX Architect
+                    </p>
+                    <p className={compStyles.date} >
+                        / Aug 2017
+                    </p>
+                </div>
+                <div className={compStyles.tags}>
+                    #ux  #ui #workexample
+                </div>
+            </div>
+        </div>
+
     );
     }
 }

@@ -3,18 +3,18 @@ import React from 'react'
 import compStyle from './css/nielsen.module.css'
 import Layout from '../../components/layout/layout'
 import Hero from '../../components/hero/hero'
-import Headerimg from '../../images/nielsen-header.jpg'
+import HeaderImg from '../../images/nielsen-header.jpg'
+import HeaderMobileImg from '../../images/nielsen-header-mobile.jpg'
 
 const Blog3 = () => (
   <Layout>
     <Hero 
       backgroundColor='rgb(242, 242, 242)'
-      backgroundImage={Headerimg}
-    >
-      <img src={Headerimg} alt="Nielsen" /> 
-    </Hero>
+      backgroundImage={HeaderImg}
+      backgroundMobileImage={HeaderMobileImg}
+    />
     <div className={compStyle.blueguy}>
-      
+
     </div>
   </Layout>
 )
