@@ -1,0 +1,18 @@
+.cont {
+    height: 600px;
+    padding: var(--site-padding);
+    background-repeat: no-repeat;
+    background-position: 60% 250px;
+    background-attachment: fixed;
+    background-size: 80%;
+}
+@media only screen and (min-width: 961px) {
+    .cont {
+        height: 66vh;
+        padding: var(--site-padding);
+        background-repeat: no-repeat;
+        background-position: 60% 20%;
+        background-attachment: fixed;
+        background-size: 60%;
+    }
+}

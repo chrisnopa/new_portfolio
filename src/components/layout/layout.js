@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import './globals.css'
 import './layout.css'
-import Sidebar from './sidebar'
-import Footer from './footer'
-import MobileMenu from './menu-mobile'
+import Sidebar from '../sidebar'
+import Footer from '../footer'
+import MobileMenu from '../menu-mobile'
 
 const Layout = ({ children }) => (
   <StaticQuery

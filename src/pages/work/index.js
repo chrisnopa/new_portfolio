@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { StyleSheet, css } from 'aphrodite'
 
 import { graphql } from "gatsby"
-import Layout from '../../components/layout'
+import Layout from '../../components/layout/layout'
 import BlogRow from '../../components/blog-row'
 import Pill from '../../components/pill'
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { StyleSheet, css } from 'aphrodite'
-import Layout from '../components/layout'
+import Layout from '../components/layout/layout'
 
 import Menu from '../components/menu';
 import IntroBGMobile from '../images/office-mobile.jpg';
