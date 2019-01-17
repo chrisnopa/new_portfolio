@@ -62,7 +62,7 @@ class IndexPage extends Component {
       name: {
         fontSize: '42px',
         fontWeight: '300',
-        margin: '0 0 0 0',
+        margin: '0 0 32px 0',
         '@media (min-width: 961px)': {
           fontSize: '64px',
         },
@@ -122,7 +122,7 @@ class IndexPage extends Component {
               <div>
                 <h2 className="titles">Building better experiences</h2>
                 <div className="accent-bar" />
-                <p>Over the past 16 years of my professional career, I have worked with many different clients, companies, and corporations. 
+                <p className='cozy'>Over the past 16 years of my professional career, I have worked with many different clients, companies, and corporations. 
                 I’ve sketched, wireframed, prototyped, and tested. I’ve coded, integrated, debugged, and deployed. I’ve been a one-man show, 
                 a team leader, and have built a practice. In all of these endeavors, the common goal has been simply: to build better user experiences.  
                 This site is here to show some of what I have done (The Work) and share some of what I have learned (The Blog).</p> 

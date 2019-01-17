@@ -14,7 +14,18 @@ const Blog3 = () => (
       backgroundMobileImage={HeaderMobileImg}
     />
     <div className={compStyle.blueguy}>
-
+      <h2>A little bit about Nielsen</h2>
+      <p className={'cozy'}>When I tell people I worked at Nielsen, the response I usually get is, “oh the TV ratings people.” While it is true that they 
+      are the “TV ratings people,” a more accurate description of them would probably be the consumer data people. If you need help
+      deciding where the best location to open a new store is, or what demographics might be interested in your product Nielsen has
+      the data to help answer those questions. But data doesn’t do you any good unless you can interpret it. And that is where I
+      came in. I worked as part of the team tasked with developing the tools to allow users to analyze and understand data.
+      The team I joined was part of a mature user experience design practice, one that I would describe as ‘doing it the right way.” 
+      With data being at the core of Nielsen’s business, it was naturally a driving force in the practice as well. The design process 
+      was heavily dependent on user testing and feedback. It wasn’t enough to think we improved the user experience, we needed to prove 
+      it with data. As a UX Architect, it was my primary responsibility to translate the business needs into designs that could then be 
+      user tested, interpret those tests, and use them to deliver better designs.
+      </p>
     </div>
   </Layout>
 )

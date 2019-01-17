@@ -41,7 +41,7 @@
     font-size: 36px;
     line-height: 32px;
     border-radius: 16px;
-    box-shadow: 15px 15px 25px rgba(0, 0, 0, .15);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .10);
 }
 .title p {
     margin: 0;
@@ -57,7 +57,7 @@ display: none;
 @media only screen and (min-width: 961px) {
     .cont {
         position: relative;
-        height: 66vh;
+        height: 75vh;
         display: flex;
         align-items: flex-end;
     }
@@ -67,7 +67,7 @@ display: none;
         top: 0;
         right: 0;
         left: 0;
-        height: 66vh;
+        height: 75vh;
         display: flex;
         justify-content: center;
         align-items: center;
