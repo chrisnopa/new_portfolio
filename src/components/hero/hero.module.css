@@ -22,34 +22,22 @@
 .info {
     position: relative;
     width: 100%;
-    height: 60px;
+    height: 84px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    background-image: url(../../images/hero-bar.png);
-    background-size: cover;
+    background-color: rgba(0, 0, 0, .67);
 }
 .title {
-    position: absolute;
-    top: -50%;
-    left: 24px;
-    max-width: 80%;
     margin: 0;
-    padding: 24px 96px 24px 24px;
-    background-color: rgb(37, 33, 45);
+    padding: 0 0 0 48px;
     color: rgba(255, 255, 255, .9);
     font-size: 36px;
     line-height: 32px;
-    border-radius: 16px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, .10);
-}
-.title p {
-    margin: 0;
 }
 .date {
-    color: rgb(128, 128, 128);
+    color: rgb(204, 204, 204);
     font-size: 18px;
-    margin: 0;
+    margin: 0 0 0 12px;
 }
 .tags { 
 display: none;
@@ -57,7 +45,7 @@ display: none;
 @media only screen and (min-width: 961px) {
     .cont {
         position: relative;
-        height: 75vh;
+        height: 80vh;
         display: flex;
         align-items: flex-end;
     }
@@ -67,7 +55,7 @@ display: none;
         top: 0;
         right: 0;
         left: 0;
-        height: 75vh;
+        height: 80vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -79,16 +67,14 @@ display: none;
         display: block;
     }
     .title {
-        top: -34px;
-        left: 176px;
-        width: 480px;
-        height: 128px;
-        padding: 36px 0 0 48px;
+        padding: 6px 0 0 176px;
     }
     .tags { 
         display: block;
         padding: 0 48px 0 0;
         color: rgba(255, 255, 255, .8);
         font-size: 24px;
+        flex-grow: 1;
+        text-align: right;
     }
 }

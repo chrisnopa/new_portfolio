@@ -28,12 +28,10 @@ class Hero extends Component {
             </div>
             <div className={compStyles.info}>
                 <div className={compStyles.title}>
-                    <p>
-                        UX Architect
-                    </p>
-                    <p className={compStyles.date} >
+                    UX Architect
+                    <span className={compStyles.date} >
                         / Aug 2017
-                    </p>
+                    </span>
                 </div>
                 <div className={compStyles.tags}>
                     #ux  #ui #workexample
