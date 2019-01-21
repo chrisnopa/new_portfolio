@@ -12,9 +12,13 @@ const Blog3 = () => (
       backgroundColor='rgb(242, 242, 242)'
       backgroundImage={HeaderImg}
       backgroundMobileImage={HeaderMobileImg}
+      title='UX Architect'
+      date='Aug 2014'
+      tags='#ux #job'
     />
     <div className={compStyle.blueguy}>
       <h2>A little bit about Nielsen</h2>
+      <div className="accent-bar" />
       <p className={'cozy'}>When I tell people I worked at Nielsen, the response I usually get is, “oh the TV ratings people.” While it is true that they 
       are the “TV ratings people,” a more accurate description of them would probably be the consumer data people. If you need help
       deciding where the best location to open a new store is, or what demographics might be interested in your product Nielsen has

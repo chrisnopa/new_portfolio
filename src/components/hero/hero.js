@@ -9,32 +9,27 @@ class Hero extends Component {
     
     return (
         <div className={compStyles.cont}>
-            <div className={compStyles.sticky}>
-                <div
-                    className={compStyles.bgmobile}
-                    style={{
-                        backgroundColor: this.props.backgroundColor,
-                    }}
-                >
-                    <img className={compStyles.mobileimg} src={this.props.backgroundMobileImage} alt='header'/>
-                </div>
-                <div
-                    className={compStyles.bg}
-                    style={{
-                        backgroundColor: this.props.backgroundColor,
-                        backgroundImage: `url(${this.props.backgroundImage})`
-                    }}
-                />
-            </div>
+            <div className={compStyles.bg}
+            style={{
+                backgroundColor: this.props.backgroundColor,
+                backgroundImage: `url(${this.props.backgroundImage})`,
+            }}
+            />
+            <div className={compStyles.bgmobile}
+                style={{
+                    backgroundColor: this.props.backgroundColor,
+                    backgroundImage: `url(${this.props.backgroundMobileImage})`,
+                }}
+            />
             <div className={compStyles.info}>
                 <div className={compStyles.title}>
-                    UX Architect
+                    {this.props.title}
                     <span className={compStyles.date} >
-                        / Aug 2017
+                        / {this.props.date}
                     </span>
                 </div>
                 <div className={compStyles.tags}>
-                    #ux  #ui #workexample
+                    {this.props.tags}
                 </div>
             </div>
         </div>
@@ -48,9 +43,15 @@ export default Hero;
 Hero.propTypes = {
     backgroundColor: PropTypes.string,
     backgroundImage: PropTypes.string,
+    title: PropTypes.string,
+    date: PropTypes.string,
+    tags: PropTypes.string
   };
 
 Hero.defaultProps = {
     backgroundColor: 'rgb(242, 242, 242)',
-    backgroundImage: 'none'
+    backgroundImage: 'none',
+    title: '',
+    date: '',
+    tags: ''
 };
