@@ -1,0 +1,13 @@
+.cont {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+@media only screen and (min-width: 961px) {
+    .cont {
+        display: flex;
+    }
+}
