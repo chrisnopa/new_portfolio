@@ -15,8 +15,8 @@ const Blog1 = () => (
 export default Blog1
 
 export const frontmatter = {
-  title: "Wyndham",
-  written: "SEP 05 2016",
+  title: "I am the one",
+  written: "SEP 05 2018",
   layoutType: "portfolio",
   category: "#ux #ui #winners",
   description: "Things about the choropleth.",

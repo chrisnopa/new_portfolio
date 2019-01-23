@@ -128,13 +128,13 @@ const Blog3 = () => (
           <br /><br />
           We were able to meet this challenge by:
           <br /><br />
-          <ul>
-            <li>Designing and utilizing a shared design library</li>
-            <li>Frequent design meetings</li>
-            <li>Peer reviews across work streams</li>
-            <li>Working closely with development to understand technical limitation</li>
-          </ul>
         </p>
+        <ul>
+          <li>Designing and utilizing a shared design library</li>
+          <li>Frequent design meetings</li>
+          <li>Peer reviews across work streams</li>
+          <li>Working closely with development to understand technical limitation</li>
+        </ul>
       </div>
     </Section>
     <Section backgroundColor='rgb(242, 242, 242'>

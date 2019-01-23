@@ -37,14 +37,12 @@
 }
 .title {
     margin: 0;
-    padding: 0 0 0 48px;
-    font-size: 36px;
+    padding: 0 0 0 32px;
+    font-size: 32px;
     line-height: 32px;
 }
 .date {
-    opacity: .8;
-    font-size: 18px;
-    margin: 0 0 0 12px;
+    display: none;
 }
 .tags { 
 display: none;
@@ -70,6 +68,12 @@ display: none;
     }
     .title {
         padding: 6px 0 0 176px;
+    }
+    .date {
+        display: inline-block;
+        opacity: .8;
+        font-size: 18px;
+        margin: 0 0 0 12px;
     }
     .tags { 
         display: block;
