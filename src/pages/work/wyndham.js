@@ -20,7 +20,7 @@ const Blog3 = () => (
       backgroundImage={HeaderImg}
       backgroundMobileImage={HeaderMobileImg}
       title='Senior UX/UI'
-      date='Dec 2016'
+      date='Sep 2015'
       tags='#ux #job'
     />
     <Section >
@@ -168,7 +168,7 @@ export default Blog3
 
 export const frontmatter = {
   title: "Wyndham - Senior UX/UI",
-  written: "01/05/2017",
+  written: "09/05/2015",
   layoutType: "portfolio",
   category: "#ux #job",
   path: "https://uxuimike.files.wordpress.com/2017/04/nielsen012.png?w=1180&h=300"
