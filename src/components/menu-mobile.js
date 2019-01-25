@@ -34,8 +34,8 @@ class Menu extends Component {
         hamburger: {
             position: 'fixed',
             zIndex: '2',
-            top: '20px',
-            left: '24px',
+            top: '36px',
+            right: '24px',
         },
         menu: {
             position: 'fixed',

@@ -1,11 +1,8 @@
 import React from 'react'
 
 import Layout from '../../components/layout/layout'
-import Hero from '../../components/hero/hero'
-import Section from '../../components/section/section'
 
-import HeaderImg from '../../images/headbutt/headbutt-header.jpg'
-import HeaderMobileImg from '../../images/wyndham/wyndham-header-mobile.jpg'
+import IntroImg from '../../images/headbutt/headbutt-header.jpg'
 import SecImg1 from '../../images/headbutt/headbutt01.jpg'
 import SecImg2 from '../../images/headbutt/headbutt02.jpg'
 import SecImg3 from '../../images/headbutt/headbutt03.jpg'
@@ -14,29 +11,20 @@ import SecImg4 from '../../images/headbutt/headbutt04.jpg'
 
 const Blog3 = () => (
   <Layout>
-    <Hero 
-      backgroundColor='rgb(242, 242, 242)'
-      backgroundImage={HeaderImg}
-      backgroundMobileImage={HeaderMobileImg}
-      title='Headbutt'
-      date='Mar 2016'
-      tags='#ux #job'
-    />
-    <Section >
-      <div>
+    <section className='section-double section-intro'>
+      <div className='section-content'>
         <h2>Game Concept</h2>
-        <div className='accent-bar' />
         <p>
           Headbutt is based around one simple idea….trivia can be entertaining, but only if it is fun. A group of us had grown frustrated at how amazingly un-fun 
           most trivia games/apps are. We set ourselves on a goal to find out if it was possible to make a trivia app that was actually fun to play. After some 
           research and testing we came up with three key ingredients that when mixed properly help make the game we had been searching for.
         </p>
       </div>
-    </Section>
-    <Section>
-      <img src={SecImg1} alt="Headbutt screens" />  
-    </Section>
-    <Section >
+      <div className='section-img'>
+        <img src={IntroImg} alt="Headbutt Trivia" />
+      </div>
+    </section>
+    <section className='section-single'>
       <div>
         <h2>Timing is Everything</h2>
         <div className='accent-bar' />
@@ -47,11 +35,11 @@ const Blog3 = () => (
           head, it is important to answer questions correct, but also in less time than the opponent
         </p>
       </div>
-    </Section>
-    <Section>
-      <img src={SecImg2} alt="Headbutt screens" />  
-    </Section>
-    <Section >
+    </section>
+    <section className='section-single-image'>
+      <img src={SecImg1} alt="Headbutt screens" />  
+    </section>
+    <section className='section-single'>
       <div>
         <h2>Good Questions</h2>
         <div className='accent-bar' />
@@ -62,11 +50,11 @@ const Blog3 = () => (
           with the types of questions players wanted to interact with.
         </p>
       </div>
-    </Section>
-    <Section>
-      <img src={SecImg3} alt="Headbutt screens" />  
-    </Section>
-    <Section >
+    </section>
+    <section className='section-single-image'>
+      <img src={SecImg2} alt="Headbutt homescreen" />  
+    </section>
+    <section className='section-single'>
       <div>
         <h2>Interactive</h2>
         <div className='accent-bar' />
@@ -79,10 +67,13 @@ const Blog3 = () => (
           knowledge and their finger dexterity.
         </p>
       </div>
-    </Section>
-    <Section>
-      <img src={SecImg4} alt="Headbutt screens" />  
-    </Section>
+    </section>
+    <section className='section-single-image'>
+      <img src={SecImg3} alt="Headbutt game types" />  
+    </section>
+    <section className='section-single-image'>
+      <img src={SecImg4} alt="Headbutt game screens" />  
+    </section>
 
   </Layout>
 )

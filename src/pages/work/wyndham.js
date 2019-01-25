@@ -1,12 +1,8 @@
 import React from 'react'
 
 import Layout from '../../components/layout/layout'
-import Hero from '../../components/hero/hero'
-import Section from '../../components/section/section'
-import SectionPara from '../../components/section-parallax/section-parallax'
 
-import HeaderImg from '../../images/wyndham/wyndham-header.jpg'
-import HeaderMobileImg from '../../images/wyndham/wyndham-header-mobile.jpg'
+import IntroImg from '../../images/wyndham/wyndham-header.jpg'
 import SecImg1 from '../../images/wyndham/wyndham-screens.jpg'
 import SecImg2 from '../../images/wyndham/trip-parallax.jpg'
 import SecImg3 from '../../images/wyndham/cui-parallax.jpg'
@@ -15,34 +11,37 @@ import SecImg5 from '../../images/wyndham/react.jpg'
 
 const Blog3 = () => (
   <Layout>
-    <Hero 
-      backgroundColor='rgb(242, 242, 242)'
-      backgroundImage={HeaderImg}
-      backgroundMobileImage={HeaderMobileImg}
-      title='Senior UX/UI'
-      date='Sep 2015'
-      tags='#ux #job'
-    />
-    <Section >
-      <div>
-        <h2>Wyndham</h2>
-        <div className='accent-bar' />
+    <section className='section-double section-intro'>
+      <div className='section-content'>
+        <h3>Wyndham</h3>
+        <h2>Senior UX/UI</h2>
         <p>
           I was brought in to Wyndham to drive the UX design, lead the UI construction, and establish a UX/UI practice. I joined the company 
           as they were undertaking one of their largest IT projects to date: Voyager. Voyager is a new platform to replace existing systems 
           including a booking engine, customer management tools, an inventory management system, and various support applications. The project 
           had some infrastructure and back-end pieces in place, but was just beginning the bulk of the design/build phase.
-          <br/><br/>
+        </p>
+      </div>
+      <div className='section-img'>
+        <img src={IntroImg} alt="Wyndham Intro" />
+      </div>
+    </section>
+    <section className='section-double section-reverse'>
+      <div className='section-content'>
+        <h3>Projects</h3>
+        <h2>CUI/TRIP</h2>
+        <p>
           The project was split into 2 main tracks, a customer facing website (CUI) and an internal web app (TRIP). Both have similar functionality, 
           but very different experiences tailored to the target audience.
         </p>
       </div>
-      <img src={SecImg1} alt="Wyndham Screens" />
-    </Section>
-    <Section backgroundColor='rgb(242, 242, 242)'>
+      <div className='section-img'>
+        <img src={SecImg1} alt="Wyndham Screens" />
+      </div>
+    </section>
+    <section className='section-single'>
       <div>
         <h2>TRIP</h2>
-        <div className='accent-bar' />
         <p>
         TRIP’s main goal is speed. With millions of calls taken each year, a call center agent’s success is directly linked to call times. We were able to 
         deliver a platform that not only reduces average agent call times, but lowered required training time, and improved employee morale. Our approach 
@@ -65,12 +64,13 @@ const Blog3 = () => (
         </ul>
         <br/><br/>
       </div>
-    </Section>
-    <SectionPara backgroundImage={SecImg2} />
-    <Section >
+    </section>
+    <section className='section-single-image'>
+      <img src={SecImg2} alt="TRIP Screens" /> 
+    </section>
+    <section className='section-single'>
       <div>
         <h2>CUI</h2>
-        <div className='accent-bar' />
         <p>
           CUI’s main goal is to get owners on vacations. With strong imagery, clean visual design, and simple navigation, CUI succeeds at putting owners 
           in the vacation mindset while performing many of the same tasks as in TRIP. We worked with business stakeholders, marketing, and brand departments 
@@ -87,12 +87,13 @@ const Blog3 = () => (
         </ul>
         <br/><br/>
       </div>
-    </Section>
-    <SectionPara backgroundImage={SecImg3} />
-    <Section backgroundColor='rgb(35, 96, 159)' color='rgb(255, 255, 255)'>
+    </section>
+    <section className='section-single-image'>
+      <img src={SecImg3} alt="CUI Screens" /> 
+    </section>
+    <section className='section-single'>
       <div>
         <h2>Establish a practice</h2>
-        <div className='accent-bar' />
         <p>
           Wyndham, specifically Wyndham Vacation Ownership, as an organization has been around for a long time, but as an IT organization, 
           they are relatively young. The IT department prior to Voyager operated primarily as a “run” organization, keeping the systems up and 
@@ -102,11 +103,11 @@ const Blog3 = () => (
         </p>
         <br/>
       </div>
-    </Section>
-    <Section reverse>
-      <div>
+    </section>
+    <section className='section-double section-reverse'>
+      <div className='section-content'>
+        <h3>Practice</h3>
         <h2>SDLC</h2>
-        <div className='accent-bar' />
         <p>
           Before I arrived, there was no formal UX/UI practice. Many business units had never been through UX design before and lacked the parameters 
           of how to utilize the UX and UI teams. To solve this, I created a document outlining the activities and deliverables the UX and UI teams 
@@ -114,44 +115,47 @@ const Blog3 = () => (
           during the design/development process.
         </p>
       </div>
-      <img src={SecImg4} alt="SDLC" />
-    </Section>
-    <Section backgroundColor='rgb(242, 242, 242)'>
+      <div className='section-img'>
+        <img src={SecImg4} alt="Wydham SDLC" /> 
+      </div>
+    </section>
+    <section className='section-single'>
       <div>
+        <h3>Practice</h3>
         <h2>UX Standards</h2>
-        <div className='accent-bar' />
         <p>
           I promoted UX standards focused on user centered designs in order to raise the level of the business’ expectations as well as what is to be expected
            of the UX/UI Team. Drove to enterprise UX solutions through Shared libraries, Standard UX and visual design across applications, Tooling Standards, 
            Documentation Standards, Process Standards, and coordination between Teams.
         </p>
       </div>
-    </Section>
-    <Section >
-      <div>
+    </section>
+    <section className='section-double '>
+      <div className='section-content'>
+        <h3>Practice</h3>
         <h2>UI</h2>
-        <div className='accent-bar' />
         <p>
           I elevated the quality of code through teaching, implementing coding standards, and code review. I brought in new technologies to develop standardized, 
           modularized, and reusable code. Based on the evaluations of new technologies, we became a React practice.
         </p>
       </div>
-      <img src={SecImg5} alt="SDLC" />
-    </Section>
-    <Section backgroundColor='rgb(242, 242, 242)' >
+      <div className='section-img'>
+        <img src={SecImg5} alt="React" />
+      </div>
+    </section>
+    <section className='section-single' >
       <div>
+        <h3>Practice</h3>
         <h2>Built a Team</h2>
-        <div className='accent-bar' />
         <p>
           I took an active role in building a great team. From the interview and hiring of employees, through the mentorship and development of their potential 
           into skilled resources, I cultivated a team culture of learning and innovation with a true motivation to succeed
         </p>
       </div>
-    </Section>
-    <Section >
+    </section>
+    <section className='section-single'>
       <div>
         <h2>A Shift in Company Culture</h2>
-        <div className='accent-bar' />
         <p>
           My experience from Nielsen & SquirrelMedia pushed me to be a catalyst for change at Wyndham. Lessons learned motivated me to shift the company culture 
           to work like an internal design agency: design focus as a priority, not as an afterthought. Collaborators, such as the business, needed to understand 
@@ -160,7 +164,7 @@ const Blog3 = () => (
           improve design company-wide.
         </p>
       </div>
-    </Section>
+    </section>
   </Layout>
 )
 

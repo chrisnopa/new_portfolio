@@ -1,0 +1,129 @@
+.cont {
+    display: flex;
+    align-items: center;
+    height: 96px;
+    color: rgb(77, 77, 77);
+  }
+  .hold {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    background-color: rgba(255, 255, 255, .97);
+    border-bottom: 1px solid rgba(204, 204, 204, .5);
+    transition: border-bottom 1s;
+    overflow-y: hidden;
+    box-shadow: 0 4px 20px rgba(16, 19, 20, 0.04);
+  }
+  .scroll {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(204, 204, 204, .2);
+    transition: all .2s;
+  }
+  .wrap {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 0 0 24px;
+      max-width: 1200px;
+    }
+    @media only screen and (min-width: 961px) {
+        .wrap {
+            justify-content: center;
+            padding: 0 48px 0 48px;
+          }
+    }
+  .logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    align-items: center;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+  }
+  .dot {
+    position: absolute;
+    top: 0px;
+    width: 160px;
+    background-color: rgba(252, 252, 252, 1);
+    transition: all .2s ease-out;
+    animation: dotEnter 1s forwards;
+    pointer-events: none;
+  }
+  .logo:hover .dot{
+    animation: dotEnter 1s forwards
+  }
+  @keyframes dotEnter {
+    0%   {left: 0px;}
+    30%   {left: 143px;}
+    50%   {left: 132px;}
+    70%   {left: 138px;}
+    90%   {left: 136px;}
+    100%   {left: 137px;}
+  }
+  .out {
+    animation: dotEnter 1s forwards
+  }
+  @keyframes dotLeave {
+    0%   {left: 137px;}
+    30%   {left: -10px;}
+    50%   {left: 0px;}
+    70%   {left: -6px;}
+    90%   {left: -4px;}
+    100%   {left: -5px;}
+  }
+  .in {
+    animation: dotLeave 1s forwards 
+  }
+  .links {
+      display: none;
+  }
+  @media only screen and (min-width: 961px) {
+      .links {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      .links li {
+        margin: 0;
+        height: 60px;
+      }
+      .links a  {
+        display: flex;
+        align-items: center;
+        height: 78px;
+        margin: 0 0 0 32px;
+        padding: 0;
+        font-size: 15px;
+        color: rgb(77, 77, 77);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+        line-height: 78px;
+      }
+      .links a:hover  {
+        border-bottom: 1px solid rgb(204, 204, 204);
+      }
+  }

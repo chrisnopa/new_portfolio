@@ -1,0 +1,48 @@
+/*------------------------------ Home Page ----------------------------- */
+.intro {
+    padding: 0 0 48px 0;
+  }
+  .intro h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 -14px 0;
+    color: rgb(128, 128, 128);
+  }
+  .todo h3 {
+    color: rgb(77, 77, 77);
+    margin: 0;
+    padding: 24px 0 12px 0;
+  }
+  .todo {
+    padding: 48px 48px 128px 48px;
+  }
+  .block {
+    padding: 0 0 48px 0;
+  }
+  @media only screen and (min-width: 961px) {
+    .intro {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row-reverse;
+      min-height: 100vh;
+      margin: -42px 0 0 0;
+    }
+    .todo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto 0 auto;
+      padding: 128px 48px 256px 48px;
+    }
+    .block {
+      padding: 0 24px 0 24px;
+    }
+    .block:first-child {
+      padding: 0 24px 0 0;
+    }
+    .block:last-child {
+      padding: 0 0 0 24px;
+    }
+  }

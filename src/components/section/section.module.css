@@ -1,13 +1,16 @@
 .cont {
-    padding: 48px;
+    padding: 48px 0 48px 0;
     margin: 0;
+}
+.cont img {
+    max-width: 50%;
 }
 
 @media only screen and (min-width: 961px) {
     .cont {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
-        padding: 48px 64px 48px 192px;
+        padding: 48px 0 48px 0;
     }
 }

@@ -24,6 +24,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
+  color: inherit;
 }
 a:active,
 a:hover {
@@ -68,11 +69,14 @@ h1 {
 }
 h2 {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 800;
+  line-height: 32px;
 }
 h3 {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 -14px 0;
+  color: rgb(128, 128, 128);
 }
 h4 {
   font-size: 16px;
@@ -116,10 +120,94 @@ p {
   line-height: 180%;
 }
 
-@media (min-width: 961px) {
+@media only screen and (min-width: 961px) {
   .titles {
     font-size: 32px;
   }
 }
 
+.section-double {
+  padding: 48px 0 48px 0;
+}
+@media only screen and (min-width: 961px) {
+  .section-double {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.section-single {
+  width: 100%;
+  max-width: 1200px;
+  padding: 48px;
+  margin: 0 auto 0 auto;
+}
+
+.section-single-image {
+  padding: 48px 0 48px 0;
+}
+
+@media only screen and (min-width: 961px) {
+  .section-single-image {
+    width: 100%;
+    max-width: 1200px;
+    padding: 48px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+
+.section-reverse {
+  flex-direction: row-reverse;
+}
+
+.section-intro {
+  padding: 0 0 48px 0;
+}
+
+@media only screen and (min-width: 961px) {
+  .section-intro {
+    margin-top: -48px;
+    padding: 96px 0 0 0;
+    min-height: 85vh;
+  }
+}
+
+.section-content {
+  padding: 48px;
+}
+
+@media only screen and (min-width: 961px) {
+  .section-content {
+    max-width: 600px;
+    flex-grow: 0;
+    padding: 48px;
+  }
+}
+
+.section-img {
+  width: 100%;
+}
+
+.section-img img {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+@media only screen and (min-width: 961px) {
+  .section-img {
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  .section-reverse img {
+    margin-left: auto;
+  }
+  
+  .section-img img{
+    display: block;
+    max-height: 67vh;
+  }
+}
 

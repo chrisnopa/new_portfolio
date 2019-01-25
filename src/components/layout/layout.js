@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import './globals.css'
 import './layout.css'
-import Sidebar from '../sidebar'
+import Header from '../header/header'
 import Footer from '../footer'
 import MobileMenu from '../menu-mobile'
 
@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"></link>
         </Helmet>
         <MobileMenu />
-        <Sidebar />
+        <Header />
         <div
           style={{
             margin: '0 auto',
