@@ -17,7 +17,7 @@ class BlogRow extends Component {
         bg: {
             backgroundImage: 'none',
             '@media (min-width: 961px)': {
-                backgroundImage: 'url(' + this.props.bg + ')'
+                backgroundImage: 'url(/static/' + this.props.bg + ')'
               },
         },
         cont: {
@@ -44,7 +44,7 @@ class BlogRow extends Component {
         },
         icon: {
             padding: '0 0 0 12px',
-            color: 'rgba(201, 222, 18, 1)'
+            color: 'rgb(204, 204, 204)'
         },
         tags: {
             fontSize: '12px',

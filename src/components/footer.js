@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { StyleSheet, css } from 'aphrodite'
 
 import Menu from '../components/menu';
+import { relative } from 'path';
 
 class Footer extends Component {
 
@@ -9,14 +10,25 @@ class Footer extends Component {
 
     const styles = StyleSheet.create({
         cont: {
-          backgroundColor: 'rgba(26, 26, 26, 0.9)',
-          display: 'block',
-          padding: '24px 48px 24px 48px',
-          color: 'rgba(255, 255, 255, 0.6)',
-          '@media (min-width: 961px)': {
-            display: 'flex',
-            padding: '48px 128px 48px 256px',
-          },
+            position: relative,
+        },
+        wrap: {
+            position: 'absolute',
+            right: 0,
+            left: 0,
+            zIndex: '99',
+            backgroundColor: 'rgb(52, 52, 52)',
+        },
+        contents: {
+            display: 'block',
+            width: '100%',
+            color: 'rgba(255, 255, 255, 0.6)', 
+            padding: '48px',
+            '@media (min-width: 961px)': {
+                display: 'flex',
+                maxWidth: '1200px',
+                margin: '0 auto 0 auto',
+              }, 
         },
         links: {
             flexGrow: '1',
@@ -69,19 +81,23 @@ class Footer extends Component {
     
     return (
         <div className={css(styles.cont)}>
-            <div className={css(styles.info)}>
-                <p className={css(styles.infoTitle)}>Email</p>
-                <p className={css(styles.infoText)}>contact@mikenichols.me</p>
-                <p className={css(styles.infoTitle)}>Phone</p>
-                <p className={css(styles.infoText)}>407.460.8633</p>
-            </div>
-            <div className={css(styles.links)}>
-                <div className={css(styles.menu)}><Menu /></div>
-                <div className={css(styles.social)}>
-                    <div className={css(styles.icon)}><i className="fab fa-youtube"></i></div>
-                    <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>
-                    <div className={css(styles.icon)}><i className="fab fa-dribbble"></i></div>
-                    <div className={css(styles.icon)}><i className="fab fa-linkedin-in"></i></div>
+            <div className={css(styles.wrap)}>
+                <div className={css(styles.contents)}>
+                    <div className={css(styles.info)}>
+                        <p className={css(styles.infoTitle)}>Email</p>
+                        <p className={css(styles.infoText)}>contact@mikenichols.me</p>
+                        <p className={css(styles.infoTitle)}>Phone</p>
+                        <p className={css(styles.infoText)}>407.460.8633</p>
+                    </div>
+                    <div className={css(styles.links)}>
+                        <div className={css(styles.menu)}><Menu /></div>
+                        <div className={css(styles.social)}>
+                            <div className={css(styles.icon)}><i className="fab fa-youtube"></i></div>
+                            <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>
+                            <div className={css(styles.icon)}><i className="fab fa-dribbble"></i></div>
+                            <div className={css(styles.icon)}><i className="fab fa-linkedin-in"></i></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

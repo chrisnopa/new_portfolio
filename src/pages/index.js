@@ -41,23 +41,23 @@ class IndexPage extends Component {
           </div>
         </section>
         <div className={compStyles.todo}>
-          <Link to="/work" >
+          <Link to="/portfolio" >
             <div className={compStyles.block}>
-              <img src={WorkIcon} alt="Nielsen Screen" />
-              <h3>See the work</h3>
+              <img src={WorkIcon} alt="Portfolio Icon" />
+              <h3>See the portfolio</h3>
               Explore microtransactions like never before and monetize any digital interaction.
             </div>
           </Link>
           <Link to="/blog" >
             <div className={compStyles.block}>
-              <img src={BlogIcon} alt="Nielsen Screen" />
+              <img src={BlogIcon} alt="Blog Icon" />
               <h3>Read the blog</h3>
               Explore microtransactions like never before and monetize any digital interaction.
             </div>
           </Link>
           <Link to="/contact" >
             <div className={compStyles.block}>
-              <img src={ContactIcon} alt="Nielsen Screen" />
+              <img src={ContactIcon} alt="Contact Icon" />
               <h3>Get in touch</h3>
               Explore microtransactions like never before and monetize any digital interaction.
             </div>

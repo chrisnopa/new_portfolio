@@ -26,7 +26,7 @@ class Menu extends Component {
     const styles = StyleSheet.create({
         cont: {
             position: 'fixed',
-            zIndex: '999',
+            zIndex: '99',
             '@media (min-width: 961px)': {
                 display: 'none',
             },
@@ -92,17 +92,17 @@ class Menu extends Component {
             </div>
             {this.state.open &&
                 <div className={css(styles.menu)}>
-                    <Link to="/" ><div className={css(styles.initials)}>MN</div></Link>
-                    <Link to="/" >
+                    <Link to="/" onClick={this.onHamburger}><div className={css(styles.initials)}>MN</div></Link>
+                    <Link to="/" onClick={this.onHamburger}>
                         <div className={css(styles.link)}>HOME</div>
                     </Link>
-                    <Link to="/about" >
+                    <Link to="/about" onClick={this.onHamburger}>
                         <div className={css(styles.link)}>ABOUT ME</div>
                     </Link>
-                    <Link to="/work" >
-                        <div className={css(styles.link)}>WORK</div>
+                    <Link to="/portfolio" onClick={this.onHamburger}>
+                        <div className={css(styles.link)}>PORTFOLIO</div>
                         </Link>
-                    <Link to="/blog" >
+                    <Link to="/blog" onClick={this.onHamburger}>
                         <div className={css(styles.link)}>BLOG</div>
                     </Link>
                 </div>

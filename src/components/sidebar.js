@@ -97,7 +97,7 @@ class Sidebar extends Component {
             <div className={css(styles.sepone)} />
             <div className={css(styles.links)}>
                 <Link to="/about" ><div className={css(styles.link)}>ABOUT ME</div></Link>
-                <Link to="/work" ><div className={css(styles.link)}>WORK</div></Link>
+                <Link to="/" ><div className={css(styles.link)}>PORTFOLIO</div></Link>
                 <Link to="/blog" ><div className={css(styles.link)}>BLOG</div></Link>
             </div>
             <div className={css(styles.septwo)} />

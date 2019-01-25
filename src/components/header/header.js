@@ -12,14 +12,16 @@ class Header extends Component {
     window.addEventListener('scroll', this.handleScroll);
   }
 
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
   handleScroll = () => {
     if (window.pageYOffset > 50 && !this.state.sticky) {
-      console.log('Add sticky')
       this.setState({
         sticky: true
       })
     } else if (window.pageYOffset < 50 && this.state.sticky) {
-      console.log('Remove sticky')
       this.setState({
         sticky: false
       })
@@ -55,7 +57,7 @@ class Header extends Component {
             </li>
             <li >
                 <Link
-                to="/work"
+                to="/portfolio"
                 activeStyle={{borderBottom: '1px solid rgb(204, 204, 204)',}}
                 >
                 Portfolio

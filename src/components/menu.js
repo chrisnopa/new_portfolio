@@ -32,7 +32,7 @@ class Menu extends Component {
         <ul className={css(styles.pageLinks)}>
             <li><Link to="/" className={css(styles.link)}>Home</Link></li>
             <li><Link to="/about" className={css(styles.link)}>About</Link></li>
-            <li><Link to="/work" className={css(styles.link)}>Work</Link></li>
+            <li><Link to="/portfolio" className={css(styles.link)}>Portfolio</Link></li>
             <li><Link to="/blog" className={css(styles.link)}>Blog</Link></li>
         </ul>
     );
