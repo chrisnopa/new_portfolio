@@ -76,6 +76,10 @@ class Footer extends Component {
             margin: '-8px 0 12px 0',
             fontSize: '14px',
             color: 'rgba(255, 255, 255, 1)'
+        },
+        copywrite: {
+            margin: '24px 0 12px 0',
+            fontSize: '14px',
         }
     });
     
@@ -86,16 +90,21 @@ class Footer extends Component {
                     <div className={css(styles.info)}>
                         <p className={css(styles.infoTitle)}>Email</p>
                         <p className={css(styles.infoText)}>contact@mikenichols.me</p>
-                        <p className={css(styles.infoTitle)}>Phone</p>
-                        <p className={css(styles.infoText)}>407.460.8633</p>
+                        <p className={css(styles.copywrite)}>© Mike Nichols 2019</p>
                     </div>
                     <div className={css(styles.links)}>
                         <div className={css(styles.menu)}><Menu /></div>
                         <div className={css(styles.social)}>
-                            <div className={css(styles.icon)}><i className="fab fa-youtube"></i></div>
+                            <div className={css(styles.icon)}>
+                                <a href='https://linkedin.com/in/uxuimike/'>
+                                    <i className="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
                             <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>
                             <div className={css(styles.icon)}><i className="fab fa-dribbble"></i></div>
-                            <div className={css(styles.icon)}><i className="fab fa-linkedin-in"></i></div>
+                            <div className={css(styles.icon)}>
+                                <i className="fab fa-youtube"></i>
+                            </div>
                         </div>
                     </div>
                 </div>

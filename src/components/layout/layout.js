@@ -40,6 +40,7 @@ const Layout = ({ children }) => (
           style={{
             margin: '0 auto',
             padding: '96px 0 0 0',
+            minHeight: '80vh',
           }}
         >
           {children}

@@ -65,10 +65,10 @@ class Header extends Component {
             </li>
             <li >
                 <Link
-                to="/blog/"
+                to="/contact"
                 activeStyle={{borderBottom: '1px solid rgb(204, 204, 204)',}}
                 >
-                Blog
+                Contact
                 </Link>
             </li>
             </ul>
