@@ -7,7 +7,7 @@ import compStyles from "./css/home.module.css"
 import IntroBG from '../images/office.jpg';
 import ContactIcon from '../images/icons/contact.jpg'
 import WorkIcon from '../images/icons/work.jpg'
-import BlogIcon from '../images/icons/blog.jpg'
+import AboutIcon from '../images/icons/about.jpg'
 
 class IndexPage extends Component {
     constructor(props) {
@@ -45,21 +45,21 @@ class IndexPage extends Component {
             <div className={compStyles.block}>
               <img src={WorkIcon} alt="Portfolio Icon" />
               <h3>See the portfolio</h3>
-              Explore microtransactions like never before and monetize any digital interaction.
+              See some of my work, projects, and designs.
             </div>
           </Link>
-          <Link to="/blog" >
+          <Link to="/about" >
             <div className={compStyles.block}>
-              <img src={BlogIcon} alt="Blog Icon" />
-              <h3>Read the blog</h3>
-              Explore microtransactions like never before and monetize any digital interaction.
+              <img src={AboutIcon} alt="Blog Icon" />
+              <h3>About me</h3>
+                Read about me, my career, and my approach to design.
             </div>
           </Link>
           <Link to="/contact" >
             <div className={compStyles.block}>
               <img src={ContactIcon} alt="Contact Icon" />
               <h3>Get in touch</h3>
-              Explore microtransactions like never before and monetize any digital interaction.
+              Interested in working together? Let's connect.
             </div>
           </Link>
         </div>

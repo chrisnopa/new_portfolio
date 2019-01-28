@@ -17,7 +17,7 @@ class BlogRow extends Component {
         bg: {
             backgroundImage: 'none',
             '@media (min-width: 961px)': {
-                backgroundImage: 'url(/static/' + this.props.bg + ')'
+                backgroundImage: `url(/static/${this.props.bg})`
               },
         },
         cont: {

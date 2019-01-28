@@ -27,7 +27,6 @@ const Blog3 = () => (
     <section className='section-single'>
       <div>
         <h2>Timing is Everything</h2>
-        <div className='accent-bar' />
         <p>
           Let’s face it, Google is the best trivia player ever and anyone who possesses this power is unstoppable. The only way to stop someone from cheating is 
           to make each question time-based, however I just couldn’t see designing a regular, boring timer. I decided instead to pit players head to head. But 
@@ -42,7 +41,6 @@ const Blog3 = () => (
     <section className='section-single'>
       <div>
         <h2>Good Questions</h2>
-        <div className='accent-bar' />
         <p>
           This one may seems obvious, but it’s a bit tricky. Players need questions that are challenging but not impossible, interesting without being obvious, 
           and relevant enough to appeal to the masses. I don’t pretend to be an expert question writer, so I enlisted some trivia professionals. I made 
@@ -57,7 +55,6 @@ const Blog3 = () => (
     <section className='section-single'>
       <div>
         <h2>Interactive</h2>
-        <div className='accent-bar' />
         <p>
           Triva is the basis for almost every television game show ever made with the only major difference being how the contestants answer questions. The 
           ones with good formats make good shows; it’s that simple. I took this idea and applied it to the app. Gone are the days of the monotony of 4 multiple 

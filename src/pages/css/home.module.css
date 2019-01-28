@@ -30,7 +30,7 @@
     }
     .todo {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       max-width: 1200px;
       margin: 0 auto 0 auto;
@@ -38,6 +38,8 @@
     }
     .block {
       padding: 0 24px 0 24px;
+      width: 300px;
+      flex-grow: 0;
     }
     .block:first-child {
       padding: 0 24px 0 0;

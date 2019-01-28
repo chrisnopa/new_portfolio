@@ -175,5 +175,5 @@ export const frontmatter = {
   written: "09/05/2015",
   layoutType: "portfolio",
   category: "#ux #job",
-  path: "https://uxuimike.files.wordpress.com/2017/04/nielsen012.png?w=1180&h=300"
+  path: 'p-wyndham.jpg'
 }
