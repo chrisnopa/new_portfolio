@@ -81,6 +81,6 @@ export const frontmatter = {
   title: "Headbutt",
   written: "03/22/2014",
   layoutType: "portfolio",
-  category: "#ux #job",
+  category: "#ui #ux #development",
   path: 'p-headbutt.jpg'
 }

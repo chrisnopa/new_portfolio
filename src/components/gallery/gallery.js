@@ -19,7 +19,7 @@ class BlogIndex extends Component {
           {value: "UI", active: false},
           {value: "Design", active: false},
           {value: "Development", active: false},
-          {value: "Popular", active: false},
+          {value: "Job", active: false},
         ],
         filteredPosts: posts,
         sortedPosts: posts,
@@ -40,7 +40,7 @@ class BlogIndex extends Component {
         {value: "UI", active: false},
         {value: "Design", active: false},
         {value: "Development", active: false},
-        {value: "Popular", active: false},
+        {value: "Job", active: false},
       ]
       filter = []
     } else {
@@ -70,7 +70,7 @@ class BlogIndex extends Component {
         {value: "UI", active: false},
         {value: "Design", active: false},
         {value: "Development", active: false},
-        {value: "Popular", active: false},
+        {value: "Job", active: false},
       ]
     }
 

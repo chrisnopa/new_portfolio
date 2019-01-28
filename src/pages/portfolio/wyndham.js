@@ -174,6 +174,6 @@ export const frontmatter = {
   title: "Wyndham - Senior UX/UI",
   written: "09/05/2015",
   layoutType: "portfolio",
-  category: "#ux #job",
+  category: "#ux #ui #job #design #development",
   path: 'p-wyndham.jpg'
 }
