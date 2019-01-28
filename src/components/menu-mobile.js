@@ -97,7 +97,7 @@ class Menu extends Component {
                         <div className={css(styles.link)}>HOME</div>
                     </Link>
                     <Link to="/about" onClick={this.onHamburger}>
-                        <div className={css(styles.link)}>ABOUT ME</div>
+                        <div className={css(styles.link)}>ABOUT</div>
                     </Link>
                     <Link to="/portfolio" onClick={this.onHamburger}>
                         <div className={css(styles.link)}>PORTFOLIO</div>
