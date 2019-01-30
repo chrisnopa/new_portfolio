@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Portfolio site of Mike Nichols a UX designer and product development lead.' },
+            { name: 'description', content: 'Portfolio site of Mike Nichols, a UX designer and product development lead.' },
             { name: 'keywords', content: 'ux, ui, user experience, product development, ux consultant' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
           ]}
