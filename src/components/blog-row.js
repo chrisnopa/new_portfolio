@@ -17,7 +17,9 @@ class BlogRow extends Component {
         bg: {
             backgroundImage: 'none',
             '@media (min-width: 961px)': {
-                backgroundImage: `url(https://dazzling-franklin-9b45ac.netlify.com/${this.props.bg})`
+                backgroundImage: `url(https://dazzling-franklin-9b45ac.netlify.com/${this.props.bg})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center center'
               },
         },
         cont: {
@@ -28,7 +30,7 @@ class BlogRow extends Component {
           transition: 'all 0.4s',
           color: 'rgba(26, 26, 26, 0.8)',
           ':hover': {
-            backgroundColor: 'rgba(102, 102, 102, 0.85)',
+            backgroundColor: 'rgba(102, 102, 102, 0.55)',
             color: 'rgba(255, 255, 255, 1)',
           },
         },
