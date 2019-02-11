@@ -14,7 +14,7 @@ class BlogIndex extends Component {
       })
       this.state = {
         tags: [
-          {value: "All Projects", active: true},
+          {value: "Everything", active: true},
           {value: "UX", active: false},
           {value: "UI", active: false},
           {value: "Design", active: false},
@@ -34,9 +34,9 @@ class BlogIndex extends Component {
     let filter = []
 
     //Determin what pills should be turned on or off
-    if (value === "All Projects"){
+    if (value === "Everything"){
       ta = [
-        {value: "All Projects", active: true},
+        {value: "Everything", active: true},
         {value: "UX", active: false},
         {value: "UI", active: false},
         {value: "Design", active: false},
@@ -47,7 +47,7 @@ class BlogIndex extends Component {
       filter = []
     } else {
       ta.forEach(element => {
-        if(element.value === "All Projects") {
+        if(element.value === "Everything") {
           element.active = false
         }else if(element.value === value) {
           element.active = !element.active
@@ -58,16 +58,16 @@ class BlogIndex extends Component {
     //Create filter list to send to fliter function
     ta.forEach(element => {
       if(element.active) {
-        if(element.value !== "All Projects"){
+        if(element.value !== "Everything"){
           filter.push(element.value)
         }
       }
     });
 
-    //Check to see if the one button on was turned off, then turn on all projects
+    //Check to see if the one button on was turned off, then turn on Everything
     if (filter.length === 0){
       ta = [
-        {value: "All Projects", active: true},
+        {value: "Everything", active: true},
         {value: "UX", active: false},
         {value: "UI", active: false},
         {value: "Design", active: false},
@@ -138,7 +138,7 @@ class BlogIndex extends Component {
     //Create filter list to send to fliter function
     ta.forEach(element => {
       if(element.active) {
-        if(element.value !== "All Projects"){
+        if(element.value !== "Everything"){
           filter.push(element.value)
         }
       }
