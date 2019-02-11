@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../../components/layout/layout'
 
-import IntroImg from '../../images/shuttle/intro.jpg'
+import IntroImg from '../../images/shuttle/shuttleintro.jpg'
 import SecImg1 from '../../images/shuttle/flowmap.jpg'
 import SecImg2 from '../../images/shuttle/layout.jpg'
 import SecImg3 from '../../images/shuttle/slide.gif'
