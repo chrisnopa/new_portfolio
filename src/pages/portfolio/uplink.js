@@ -112,6 +112,6 @@ export const frontmatter = {
   title: "Uplink",
   written: "10/12/2018",
   layoutType: "portfolio",
-  category: "#ui #ux #development",
+  category: "#ui #ux #design #job",
   path: 'p-uplink.jpg'
 }

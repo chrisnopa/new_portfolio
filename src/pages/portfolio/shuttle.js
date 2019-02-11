@@ -115,6 +115,6 @@ export const frontmatter = {
   title: "Shuttle",
   written: "05/18/2018",
   layoutType: "portfolio",
-  category: "#ui #ux #development",
+  category: "#ui #ux #design #job",
   path: 'p-shuttle.jpg'
 }
