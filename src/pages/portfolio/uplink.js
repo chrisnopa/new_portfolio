@@ -17,7 +17,7 @@ const Blog3 = () => (
         <h3>Lunar</h3>
         <h2>Uplink</h2>
         <p>
-        Uplink is a messaging platform.  This was a completely new product and my role was a design of the entire experience from the ground 
+        Uplink is a messaging platform.  This was a completely new product and my role was to design an entire experience from the ground 
         up.  Being part of the Lunar suite, it leverages design elements from Shuttle.  
         </p>
       </div>

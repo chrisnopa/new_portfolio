@@ -17,9 +17,9 @@ const Blog3 = () => (
         <h3>Lunar</h3>
         <h2>Shuttle</h2>
         <p>
-        Shuttle collects and distributes data.  It began as an internal tool and was being transformed into a SAAS product.  When 
-        I began on the project it had a very simple user interface but was mostly a back-end tool.  My role was a complete redesign 
-        of the existing experience and create new flows for new features.
+        Shuttle collects, transforms and distributes data.  It began as an internal tool and was being transformed into a SAAS 
+        product.  When I began on the project it had a very simple user interface but was mostly a back-end tool.  My 
+        role was to completely redesign the existing experience and create new flows for new features.
         </p>
       </div>
       <div className='section-img'>
@@ -115,6 +115,6 @@ export const frontmatter = {
   title: "Shuttle",
   written: "05/18/2018",
   layoutType: "portfolio",
-  category: "#ui #ux #design #job",
+  category: "#ui #ux #design #development #job",
   path: 'p-shuttle.jpg'
 }
