@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Mike Nichols',
+    siteUrl: `https://www.mikenichols.me`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -44,5 +45,6 @@ module.exports = {
         trackingId: "UA-18174670-7",
       },
     },
+    `gatsby-plugin-sitemap`
   ],
 }
