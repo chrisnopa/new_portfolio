@@ -100,8 +100,12 @@ class Footer extends Component {
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
                             </div>
+                            <div className={css(styles.icon)}>
+                                <a href='https://dribbble.com/mostlyux'>
+                                    <i className="fab fa-dribbble"></i>
+                                </a>
+                            </div>
                             <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>
-                            <div className={css(styles.icon)}><i className="fab fa-dribbble"></i></div>
                             <div className={css(styles.icon)}>
                                 <i className="fab fa-youtube"></i>
                             </div>
