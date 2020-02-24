@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mike Nichols',
-    siteUrl: `https://www.mikenichols.me`,
+    title: 'Christophe Panon',
+    siteUrl: `https://www.chrispanon.me`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -31,7 +31,7 @@ module.exports = {
         background_color: '#FFFFFF',
         theme_color: '#202020',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/Logo_CP.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-aphrodite',

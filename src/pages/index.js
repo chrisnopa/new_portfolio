@@ -28,7 +28,7 @@ class IndexPage extends Component {
       <Layout>
         <section className={compStyles.intro}>
           <div className='section-content'>
-            <h1>Mike Chroaze</h1>
+            <h1>Christophe Panon</h1>
             <h2>User Experience / Product Development</h2>
             <p>
               Over the past 16 years of my career, I have worked with many different clients, companies, and corporations. 
@@ -44,21 +44,21 @@ class IndexPage extends Component {
           <Link to="/portfolio" >
             <div className={compStyles.block}>
               <img src={WorkIcon} alt="Portfolio Icon" />
-              <h3>See the portfolio</h3>
+              <h3>Portfolio</h3>
               See some of my work, projects, and designs.
             </div>
           </Link>
           <Link to="/about" >
             <div className={compStyles.block}>
               <img src={AboutIcon} alt="Blog Icon" />
-              <h3>About me</h3>
+              <h3>A propos</h3>
                 Read about me, my career, and my approach to design.
             </div>
           </Link>
           <Link to="/contact" >
             <div className={compStyles.block}>
               <img src={ContactIcon} alt="Contact Icon" />
-              <h3>Get in touch</h3>
+              <h3>Contact</h3>
               Interested in working together? Let's connect.
             </div>
           </Link>

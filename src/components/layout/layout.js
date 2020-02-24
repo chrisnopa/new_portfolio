@@ -25,13 +25,12 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Portfolio site of Mike Nichols, a UX designer and product development lead.' },
+            { name: 'description', content: 'Portfolio de Christophe Panon.' },
             { name: 'keywords', content: 'ux, ui, user experience, product development, ux consultant' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
           ]}
         >
           <html lang="en" />
-          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"></link>
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"></link>
         </Helmet>
         <MobileMenu />

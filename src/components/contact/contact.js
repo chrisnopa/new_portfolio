@@ -47,8 +47,8 @@ class Contact extends Component {
     
     return (
         <div className={compStyles.cont}>
-            <h3>Email me at</h3>
-            <a href='mailto:contact@mikenichols.me' className={compStyles.email}>contact@mikenichols.me</a>
+            <h3>Contactez_moi</h3>
+            <a href='mailto:contact@chrispanon.me' className={compStyles.email}>contact@chrispanon.me</a>
             <form
                 className={compStyles.formwrap}
                 name="contact"
@@ -59,19 +59,18 @@ class Contact extends Component {
                 onSubmit={this.handleSubmit}
             >
             <div className={compStyles.form}>
-            <h3>Send me a message</h3>
+            <h3>Envoyez moi un message</h3>
                 <input type="hidden" name="form-name" value="contact" />
                 <input type="hidden" name="bot-field" onChange={this.handleChange}/>
                 <div className={compStyles.formfields}>
                 <div className={compStyles.formrow} >
-                    <label htmlFor="email">How should I contact you?</label>
                     <div className={compStyles.double}>
-                    <input type="email" name="email" id="email" placeholder="Email Address" onChange={this.handleChange}/>
-                    <input type="tel" name="phone" id="phone" placeholder="Phone Number" onChange={this.handleChange}/>
+                    <input type="email" name="email" id="email" placeholder="Adresse email" onChange={this.handleChange}/>
+                    <input type="tel" name="phone" id="phone" placeholder="Numéro de téléphone" onChange={this.handleChange}/>
                     </div>
                 </div>
                 <div className={compStyles.formrow} >
-                    <label htmlFor="message">What can I help you with?</label>
+                    <label htmlFor="message">Objet de votre message</label>
                     <textarea 
                         name="message"
                         id="message"
@@ -84,7 +83,7 @@ class Contact extends Component {
                 </div>
                 </div>
                 <div className={compStyles.submit}>
-                    <button>Submit</button>
+                    <button>Envoyer</button>
                 </div>
             </div>
             </form>

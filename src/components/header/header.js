@@ -35,7 +35,7 @@ class Header extends Component {
         <div className={compStyles.wrap}>
             <Link to="/" >
                 <div className={compStyles.logo}>
-                    MN
+                    CP
                 </div>
             </Link>
             <ul className={compStyles.links}>

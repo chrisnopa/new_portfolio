@@ -89,8 +89,8 @@ class Footer extends Component {
                 <div className={css(styles.contents)}>
                     <div className={css(styles.info)}>
                         <p className={css(styles.infoTitle)}>Email</p>
-                        <p className={css(styles.infoText)}>contact@mikenichols.me</p>
-                        <p className={css(styles.copywrite)}>© Mike Nichols 2019</p>
+                        <p className={css(styles.infoText)}>contact@chrispanon.me</p>
+                        <p className={css(styles.copywrite)}>© Christophe Panon</p>
                     </div>
                     <div className={css(styles.links)}>
                         <div className={css(styles.menu)}><Menu /></div>
@@ -99,15 +99,6 @@ class Footer extends Component {
                                 <a href='https://linkedin.com/in/uxuimike/'>
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
-                            </div>
-                            <div className={css(styles.icon)}>
-                                <a href='https://dribbble.com/mostlyux'>
-                                    <i className="fab fa-dribbble"></i>
-                                </a>
-                            </div>
-                            <div className={css(styles.icon)}><i className="fab fa-behance"></i></div>
-                            <div className={css(styles.icon)}>
-                                <i className="fab fa-youtube"></i>
                             </div>
                         </div>
                     </div>
