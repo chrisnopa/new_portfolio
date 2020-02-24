@@ -28,7 +28,7 @@ class IndexPage extends Component {
       <Layout>
         <section className={compStyles.intro}>
           <div className='section-content'>
-            <h1>Mike Nichols</h1>
+            <h1>Mike Chroaze</h1>
             <h2>User Experience / Product Development</h2>
             <p>
               Over the past 16 years of my career, I have worked with many different clients, companies, and corporations. 
