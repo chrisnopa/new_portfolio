@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout/layout'
 import compStyles from "./css/home.module.css"
 
-import IntroBG from '../images/mike-nichols.jpg';
+import IntroBG from '../images/DSC_0415.jpg';
 import ContactIcon from '../images/icons/contact.jpg'
 import WorkIcon from '../images/icons/work.jpg'
 import AboutIcon from '../images/icons/about.jpg'
