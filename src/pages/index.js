@@ -5,9 +5,9 @@ import Layout from '../components/layout/layout'
 import compStyles from "./css/home.module.css"
 
 import IntroBG from '../images/DSC_0415.jpg';
-import ContactIcon from '../images/icons/contact.jpg'
-import WorkIcon from '../images/icons/work.jpg'
-import AboutIcon from '../images/icons/about.jpg'
+import ContactIcon from '../images/icons/mail(1).png'
+import WorkIcon from '../images/icons/pencil(1).png'
+import AboutIcon from '../images/icons/sunglasses(1).png'
 
 class IndexPage extends Component {
     constructor(props) {

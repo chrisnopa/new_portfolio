@@ -45,7 +45,7 @@ class Footer extends Component {
             margin: '0 12px 0 0',
             border: '1px solid rgba(255, 255, 255, .3)',
             borderRadius: '128px',
-            fontSize: '14px',
+            fontSize: '16px',
             transition: 'all 0.2s',
             ':hover':{
                 backgroundColor: 'rgba(255, 255, 255, .3)'
