@@ -25,8 +25,8 @@ class Menu extends Component {
     
     return (
         <ul className={css(styles.pageLinks)}>
-            <li><Link to="/" className={css(styles.link)}>Home</Link></li>
-            <li><Link to="/about" className={css(styles.link)}>About</Link></li>
+            <li><Link to="/" className={css(styles.link)}>Accueil</Link></li>
+            <li><Link to="/about" className={css(styles.link)}>A propos</Link></li>
             <li><Link to="/portfolio" className={css(styles.link)}>Portfolio</Link></li>
             <li><Link to="/contact" className={css(styles.link)}>Contact</Link></li>
         </ul>

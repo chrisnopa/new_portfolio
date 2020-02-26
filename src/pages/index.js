@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout/layout'
 import compStyles from "./css/home.module.css"
 
-import IntroBG from '../images/DSC_0415.jpg';
+import IntroBG from '../images/DSC_0561.jpg';
 import ContactIcon from '../images/icons/mail(1).png'
 import WorkIcon from '../images/icons/pencil(1).png'
 import AboutIcon from '../images/icons/sunglasses(1).png'
@@ -37,7 +37,7 @@ class IndexPage extends Component {
             </p>
             </div>
             <div className='section-img'>
-            <img src={IntroBG} alt="Mike Nichols User Experience - Product Development" />
+            <img src={IntroBG} alt="Christophe Panon - User Experience - Gestion de projet/produit" />
           </div>
         </section>
         <div className={compStyles.todo}>

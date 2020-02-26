@@ -19,7 +19,6 @@ class BlogIndex extends Component {
           {value: "UI", active: false},
           {value: "Design", active: false},
           {value: "Development", active: false},
-          {value: "Job", active: false},
           {value: "Project", active: false},
         ],
         filteredPosts: posts,
@@ -40,8 +39,7 @@ class BlogIndex extends Component {
         {value: "UX", active: false},
         {value: "UI", active: false},
         {value: "Design", active: false},
-        {value: "Development", active: false},
-        {value: "Job", active: false},
+        {value: "Code", active: false},
         {value: "Project", active: false},
       ]
       filter = []
@@ -72,7 +70,6 @@ class BlogIndex extends Component {
         {value: "UI", active: false},
         {value: "Design", active: false},
         {value: "Development", active: false},
-        {value: "Job", active: false},
         {value: "Project", active: false},
       ]
     }
@@ -154,7 +151,7 @@ class BlogIndex extends Component {
         <div className={compStyles.lefttop}>
             <div>
                 <h2>Portfolio</h2>
-                <p className={compStyles.desc}>Show projects with the following tag(s)</p> 
+                <p className={compStyles.desc}>Filtrer les projets avec le(s) critère(s) suivant(s)</p> 
             </div>
             <div className={compStyles.tags}>
                 {this.state.tags.map((tag, index) =>(

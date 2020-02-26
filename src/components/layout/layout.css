@@ -46,8 +46,8 @@ a:hover {
 img {
   border-style: none;
 }
-input, textarea {
-  font-family: 'Roboto', georgia, sans-serif;
+input, textarea, label {
+  font-family: 'Barlow', georgia, sans-serif;
 }
 * {
   box-sizing: inherit;
@@ -127,6 +127,15 @@ p {
   margin: 16px 0 16px 0
 }
 
+.resume a:hover {
+  border-bottom: 2px solid red;
+}
+figcaption {
+  color: rgb(77, 77, 77);
+  font-family: 'Barlow', georgia, sans-serif;
+  font-size: .8rem;
+  text-align: center;
+}
 .titles {
   font-size: 24px;
   font-weight: 400;
@@ -154,6 +163,13 @@ p {
   }
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
 .section-single {
   width: 100%;
   max-width: 1200px;

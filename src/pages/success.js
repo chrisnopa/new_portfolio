@@ -16,8 +16,7 @@ class ContactPage extends Component {
                 height: '60vh',
                 }}
           >
-            <h3>Thanks for the message.</h3>
-            <h2>I will get back to you shortly.</h2>
+            <h3>Merci pour votre message, je reviens vers vous rapidement.</h3>
           </div>
       </Layout>
     );

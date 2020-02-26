@@ -10,6 +10,16 @@ import SecImg3 from '../../images/teebox/teebox-floating.jpg'
 
 const Blog3 = () => (
   <Layout>
+    {/* <section className="hero">
+    <div className='secti'>
+        <figure>
+        <img src={SecImg1} alt="Bishop one button" />
+        <figcaption>
+          test
+        </figcaption>
+        </figure>  
+      </div>
+    </section> */}
     <section className='section-double section-intro'>
       <div className='section-content'>
         <h3>Teebox</h3>
@@ -37,7 +47,12 @@ const Blog3 = () => (
         </p>
       </div>
       <div className='section-img'>
-        <img src={SecImg1} alt="Bishop one button" />  
+        <figure>
+        <img src={SecImg1} alt="Bishop one button" />
+        <figcaption>
+          test
+        </figcaption>
+        </figure>  
       </div>
     </section>
     <section className='section-double'>
@@ -75,7 +90,7 @@ export default Blog3
 
 export const frontmatter = {
   title: "Teebox - App Design",
-  written: "09/27/2017",
+  written: "09/27/2019",
   layoutType: "portfolio",
   category: "#ux #ui #design #project",
   path: 'p-teebox.jpg'

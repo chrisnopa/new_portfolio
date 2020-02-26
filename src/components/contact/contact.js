@@ -47,8 +47,8 @@ class Contact extends Component {
     
     return (
         <div className={compStyles.cont}>
-            <h3>Contactez_moi</h3>
-            <a href='mailto:contact@chrispanon.me' className={compStyles.email}>contact@chrispanon.me</a>
+            {/* <h3>Contactez_moi</h3>
+            <a href='mailto:contact@chrispanon.me' className={compStyles.email}>contact@chrispanon.me</a> */}
             <form
                 className={compStyles.formwrap}
                 name="contact"

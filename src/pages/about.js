@@ -11,6 +11,9 @@ const About = () => (
       <div className='section-content'>
         <h3>A propos</h3>
         <h2>Résolution & méthode</h2>
+        <span className="resume">
+        <a href="/cv-français.pdf" download="cv-français.pdf" target="_blank">Download</a>
+        </span>
         <p>
         J’apprécie l'idée de prendre quelque chose de complexe et de le décomposer en parties plus digestes, et surtout plus intelligibles. Comprendre les variables en jeu et travailler sur la solution. J'ai eu une brève vie en tant que responsable de production dans l’audiovisuel et j'ai découvert assez rapidement que ce n'était pas le genre de problèmes qui m'intéressaient. Par la suite, je me suis lancé dans la gestion de projets digitaux pour différentes entités. Bien qu'il soit plus proche de ce que je cherchais, il manquait encore quelque chose. 
         </p>

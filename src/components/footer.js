@@ -96,7 +96,7 @@ class Footer extends Component {
                         <div className={css(styles.menu)}><Menu /></div>
                         <div className={css(styles.social)}>
                             <div className={css(styles.icon)}>
-                                <a href='https://linkedin.com/in/uxuimike/'>
+                                <a href='https://www.linkedin.com/in/christophepanon/'>
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
                             </div>

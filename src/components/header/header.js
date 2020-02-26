@@ -44,7 +44,7 @@ class Header extends Component {
                 to="/" 
                 activeStyle={{borderBottom: '1px solid rgb(204, 204, 204)'}}
                 >
-                Home
+                Accueil
                 </Link>
             </li>
             <li>
@@ -52,7 +52,7 @@ class Header extends Component {
                 to="/about"
                 activeStyle={{borderBottom: '1px solid rgb(204, 204, 204)'}}
                 >
-                About
+                A propos
                 </Link>
             </li>
             <li >
