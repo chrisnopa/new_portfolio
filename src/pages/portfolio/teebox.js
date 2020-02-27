@@ -20,9 +20,20 @@ const Blog3 = () => (
         </figure>  
       </div>
     </section> */}
+    <section className="test">
+    <div className='section-img'>
+        <h3>FreeBank</h3>
+        <h2>App Design</h2>
+        <p>
+        Teebox is a mobile application to find and book golf tee times.   My role was to completely redesign the search/browse experience 
+        from the ground up.  Competitor apps have very similar experiences to each other so I looked for ways I could differentiate 
+        Teebox while still maintaining usability.
+        </p>
+      </div>
+    </section>
     <section className='section-double section-intro'>
       <div className='section-content'>
-        <h3>Teebox</h3>
+        <h3>FreeBank</h3>
         <h2>App Design</h2>
         <p>
         Teebox is a mobile application to find and book golf tee times.   My role was to completely redesign the search/browse experience 
@@ -89,8 +100,8 @@ const Blog3 = () => (
 export default Blog3
 
 export const frontmatter = {
-  title: "Teebox - App Design",
-  written: "09/27/2019",
+  title: "Freebank - App Design",
+  written: "09/12/2019",
   layoutType: "portfolio",
   category: "#ux #ui #design #project",
   path: 'p-teebox.jpg'

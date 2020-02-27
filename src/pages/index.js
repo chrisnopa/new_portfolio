@@ -30,14 +30,14 @@ class IndexPage extends Component {
             <h1>Christophe Panon</h1>
             <h2>User Experience / Product Development</h2>
             <p>
-              Over the past 16 years of my career, I have worked with many
-              different clients, companies, and corporations. I’ve sketched,
-              wireframed, prototyped, and tested. I’ve coded, integrated, and
-              debugged. I’ve been a one-man show, a team leader, and have built
-              a practice. In all of these endeavors, the common goal has been
-              simply: to build better user experiences.
+              De formation éditoriale et gestion de projets numériques, j'ai eu
+              l'occasion de travailler pour différents types de clients : ONG,
+              institutions, entreprises... Tourné vers la recherche de
+              solutions, je suis désormais responsable de projets diitaux avec
+              un bagage technique et souhaitant oeuvrer comme Product Owner. A
+              l'écoute d'opportunités !
             </p>
-            {/* <a
+            <a
               class="btn"
               href="/cv-français.pdf"
               download="cv-français.pdf"
@@ -48,7 +48,7 @@ class IndexPage extends Component {
                   <span>Consulter mon CV</span>
                 </span>
               </span>
-            </a> */}
+            </a>
           </div>
           <div className="section-img">
             <img
@@ -57,6 +57,7 @@ class IndexPage extends Component {
             />
           </div>
         </section>
+
         <div className={compStyles.todo}>
           <Link to="/portfolio">
             <div className={compStyles.block}>
@@ -69,7 +70,7 @@ class IndexPage extends Component {
             <div className={compStyles.block}>
               <img src={AboutIcon} alt="Blog Icon" />
               <h3>A propos</h3>
-              Références et expériences passées, CV.
+              Bio, CV.
             </div>
           </Link>
           <Link to="/contact">

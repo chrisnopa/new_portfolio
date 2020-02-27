@@ -14,11 +14,11 @@ class BlogIndex extends Component {
       })
       this.state = {
         tags: [
-          {value: "Everything", active: true},
+          {value: "Tout", active: true},
           {value: "UX", active: false},
           {value: "UI", active: false},
           {value: "Design", active: false},
-          {value: "Development", active: false},
+          {value: "Code", active: false},
           {value: "Project", active: false},
         ],
         filteredPosts: posts,
@@ -33,9 +33,9 @@ class BlogIndex extends Component {
     let filter = []
 
     //Determin what pills should be turned on or off
-    if (value === "Everything"){
+    if (value === "Tout"){
       ta = [
-        {value: "Everything", active: true},
+        {value: "Tout", active: true},
         {value: "UX", active: false},
         {value: "UI", active: false},
         {value: "Design", active: false},
@@ -45,7 +45,7 @@ class BlogIndex extends Component {
       filter = []
     } else {
       ta.forEach(element => {
-        if(element.value === "Everything") {
+        if(element.value === "Tout") {
           element.active = false
         }else if(element.value === value) {
           element.active = !element.active
@@ -56,7 +56,7 @@ class BlogIndex extends Component {
     //Create filter list to send to fliter function
     ta.forEach(element => {
       if(element.active) {
-        if(element.value !== "Everything"){
+        if(element.value !== "Tout"){
           filter.push(element.value)
         }
       }
@@ -65,11 +65,11 @@ class BlogIndex extends Component {
     //Check to see if the one button on was turned off, then turn on Everything
     if (filter.length === 0){
       ta = [
-        {value: "Everything", active: true},
+        {value: "Tout", active: true},
         {value: "UX", active: false},
         {value: "UI", active: false},
         {value: "Design", active: false},
-        {value: "Development", active: false},
+        {value: "Code", active: false},
         {value: "Project", active: false},
       ]
     }
@@ -135,7 +135,7 @@ class BlogIndex extends Component {
     //Create filter list to send to fliter function
     ta.forEach(element => {
       if(element.active) {
-        if(element.value !== "Everything"){
+        if(element.value !== "Tout"){
           filter.push(element.value)
         }
       }
@@ -185,8 +185,8 @@ class BlogIndex extends Component {
         <div className={compStyles.listCont}>
         { this.state.filteredPosts.length < 1 &&
             <div className={compStyles.whoops}>
-            <div className={compStyles.sad}><i className="far fa-frown"></i></div>
-            Whoops, looks like there are not any posts matching those criteria.  Try changing the filter settings.
+            <div className={compStyles.sad}>¯\_(ツ)_/¯</div>
+            Whoops, il faut croire qu'il n'y a pas de résultats avec vos critères ! Essayez une autre requête.
             </div>
         }
 
