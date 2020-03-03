@@ -37,7 +37,7 @@ class IndexPage extends Component {
               un bagage technique et souhaitant oeuvrer comme Product Owner. A
               l'écoute d'opportunités !
             </p>
-            <a
+            {/* <a
               class="btn"
               href="/cv-français.pdf"
               download="cv-français.pdf"
@@ -48,7 +48,7 @@ class IndexPage extends Component {
                   <span>Consulter mon CV</span>
                 </span>
               </span>
-            </a>
+            </a> */}
           </div>
           <div className="section-img">
             <img
