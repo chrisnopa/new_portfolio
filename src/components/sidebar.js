@@ -93,10 +93,10 @@ class Sidebar extends Component {
     
     return (
         <div className={css(styles.cont)}>
-            <Link to="/" ><div className={css(styles.initials)}>MN</div></Link>
+            <Link to="/" ><div className={css(styles.initials)}>CP</div></Link>
             <div className={css(styles.sepone)} />
             <div className={css(styles.links)}>
-                <Link to="/about" ><div className={css(styles.link)}>ABOUT ME</div></Link>
+                <Link to="/about" ><div className={css(styles.link)}>A PROPOS</div></Link>
                 <Link to="/" ><div className={css(styles.link)}>PORTFOLIO</div></Link>
                 <Link to="/blog" ><div className={css(styles.link)}>BLOG</div></Link>
             </div>
