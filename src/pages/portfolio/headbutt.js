@@ -99,14 +99,14 @@ const Blog3 = () => (
           du projet et ont donné les enseignements suivants :
           <ul>
             <li>
-              {' '}
+              
               Le compte joint vu par les personnes en couple est avant tout
               perçu comme une solution de facilité pour le quotidien mais
               devrait également les accompagner dans les projets à deux.
             </li>
             <li>
               Les utilisateurs souhaitent une meilleure lisibilités des
-              dépenses, et un système clair et engageant.{' '}
+              dépenses, et un système clair et engageant.
             </li>
             <li>
               Une plus grande diversification des offres et services proposés
