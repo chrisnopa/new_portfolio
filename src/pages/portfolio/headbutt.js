@@ -9,6 +9,9 @@ import SecImg6 from '../../images/headbutt/historique.jpg'
 import SecImg7 from '../../images/headbutt/cover.jpg'
 import SecImg8 from '../../images/headbutt/persona1.jpg'
 import SecImg9 from '../../images/headbutt/persona2.jpg'
+import SecImg10 from '../../images/headbutt/empathy1.jpg'
+import SecImg11 from '../../images/headbutt/empathy2.jpg'
+import SecImg12 from '../../images/headbutt/Storyboard.jpg'
 
 const Blog3 = () => (
   <Layout>
@@ -34,12 +37,12 @@ const Blog3 = () => (
       <div className="section-content">
         <h2>Kickoff</h2>
         <p>
-          Lors de la réunion de lancement, le brief (fictif) suivant nous a été présenté : FreeBank, nouvel acteur du secteur bancaire en
-          France, souhaite développer une nouvelle solution : un nouveau compte
-          partagé, dit « Compte partagé 2.0 ». En bref : un compte partagé plus
-          simple et plus en adéquation avec les nouveaux usages et les
-          transformations d’une société où la cellule familiale est plus
-          éclatée.
+          Lors de la réunion de lancement, le brief (fictif) suivant nous a été
+          présenté : FreeBank, nouvel acteur du secteur bancaire en France,
+          souhaite développer une nouvelle solution : un nouveau compte partagé,
+          dit « Compte partagé 2.0 ». En bref : un compte partagé plus simple et
+          plus en adéquation avec les nouveaux usages et les transformations
+          d’une société où la cellule familiale est plus éclatée.
         </p>
       </div>
       <div className="section-img">
@@ -52,13 +55,13 @@ const Blog3 = () => (
     <section className="section-double section-reverse">
       <div className="section-img">
         <figure>
-          <img src={SecImg9} alt="Bishop one button" />
+          <img src={SecImg9} alt="Persona #2" />
           <figcaption>Persona #2</figcaption>
         </figure>
       </div>
       <div className="section-img">
         <figure>
-          <img src={SecImg8} alt="Bishop one button" />
+          <img src={SecImg8} alt="Persona #1" />
           <figcaption>Persona #1</figcaption>
         </figure>
       </div>
@@ -82,13 +85,18 @@ const Blog3 = () => (
       <div>
         <h2>La recherche & cartographie UX</h2>
         <p>
-          proto personas + entretiens + personas Projections des a-priori en
-          proto-personas et confrontation des intuitions aux utilisateurs cibles
-          du projet, à travers une série d’entretiens qualitatifs. Après
-          restitution des entretiens et analyse, condensation des grandes
+          Après avoir projeté nos a-priori dans des proto-personas, nous avons
+          confronté ces intuitions aux utilisateurs cibles du projet, à travers
+          une série d’entretiens qualitatifs d'environ 1h pour chaque
+          interviewé. Ces entretiens ont été réalisés à l'aide d'un
+          questionnaire et d'un protocole établie à l'avance.
+        </p>
+        <br />
+        <p>
+          Après restitution des entretiens et analyse, condensation des grandes
           tendances en personas. Deux personas représentatifs ont été conçus.
           Ces deux profils sont complémentaires pour résoudre la problématique
-          du projet et donnent les enseignements suivants :
+          du projet et ont donné les enseignements suivants :
           <ul>
             <li>
               {' '}
@@ -109,17 +117,37 @@ const Blog3 = () => (
         </p>
       </div>
     </section>
-    <section className="section-single">
-      <div>
-        <h2>Design</h2>
+    <section className="section-double section-reverse">
+      <div className="section-img">
+        <figure>
+          <img src={SecImg11} alt="Empathy map #2" />
+        </figure>
+      </div>
+      <div className="section-img">
+        <figure>
+          <img src={SecImg10} alt="Empathy map #1" />
+        </figure>
+      </div>
+    </section>
+
+    <section className="section-double section-reverse">
+      <div className="section-content">
+        <h2>Vision & Design</h2>
         <p>
-          La vision Sketching et rapide prototypage d’une feature répondant aux
-          attentes des utilisateurs incarnés par les personas, avec un principe
-          de sous-compte appelé « tirelire ». Cette feature a été rapidement
+          Pour matérialiser notre proposition de valeur, un rapide sketching
+          puis un prototypage d’une feature répondant aux attentes des
+          utilisateurs incarnés par les personas a été effectué. Le principe :
+          un sous-compte appelé « tirelire ». Cette feature a été rapidement
           prototypée et testée auprès de personnes afin de recueillir leur
           feedback et confirmer/infirmer la matérialisation de la proposition de
           valeur initiale.
         </p>
+      </div>
+      <div className="section-img">
+        <figure>
+          <img src={SecImg12} alt="Première ébauche" />
+          <figcaption>Première ébauche</figcaption>
+        </figure>
       </div>
     </section>
     <section className="section-single">
@@ -131,13 +159,14 @@ const Blog3 = () => (
           se confirme comme étant une réponse aux besoins des utilisateurs
           finaux. En amont de la production des contenus, une réflexion est à
           mener sur la ligne et la tonalité éditoriale de la solution. Le projet
-          a été présenté devant un jury d'UX professionnels. La vidéo est
-          disponible <a href="">ici</a>
+          a été présenté devant un jury d'UX professionnels. La vidéo de cette
+          présentation est disponible{' '}
+          <a id="fancy-word" href="https://youtu.be/yhhDzUfGZzg">
+            ici
+          </a>
+          .
         </p>
       </div>
-    </section>
-    <section className="section-single-image">
-      <img src={SecImg3} alt="Headbutt game types" />
     </section>
   </Layout>
 )

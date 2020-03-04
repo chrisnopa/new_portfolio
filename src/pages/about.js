@@ -30,13 +30,13 @@ const About = () => (
           Comprendre les variables en jeu et travailler sur la solution. J' ai
           eu une brève vie en tant que responsable de production dans
           l’audiovisuel et j'ai découvert assez que ce n'était pas le genre de
-          problèmes qui m'intéressaient. Par la suite, je me suis lancé dans la{' '}
-          <strong> gestion de projets digitaux</strong> pour différentes
+          problèmes qui m'intéressaient. Par la suite, je me suis lancé dans la
+          <span id="fancy-word"> gestion de projets digitaux</span> pour différentes
           entités.
         </p>
         <p>
-          Le tournant est venu lorsque j'ai découvert l'UX et les processus structurés de conception{' '}
-          <strong>tournée vers et avec l'utilisateur</strong>.
+          Le tournant est venu lorsque j'ai découvert l'UX et les processus structurés de conception
+          <span id="fancy-word"> tournée vers et avec l'utilisateur</span>.
         </p>
       </div>
       <div className="section-img">

@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: `https://www.chrispanon.me`,
   },
   plugins: [
+
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,

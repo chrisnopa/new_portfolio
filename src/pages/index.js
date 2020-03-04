@@ -34,8 +34,8 @@ class IndexPage extends Component {
               l'occasion de travailler pour différents types de clients : ONG,
               institutions, entreprises... Tourné vers la recherche de
               solutions, je suis désormais responsable de projets diitaux avec
-              un bagage technique et souhaitant oeuvrer comme Product Owner. A
-              l'écoute d'opportunités !
+              un bagage technique et souhaitant oeuvrer comme Product Owner. 
+             <span id="fancy-word"> A l'écoute d'opportunités !</span>
             </p>
             <a
               class="btn"
