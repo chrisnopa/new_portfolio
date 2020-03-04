@@ -5,5 +5,5 @@
  */
 
 // You can delete this file if you're not using it
-require('typeface-bebas-neue');
-require('typeface-barlow');
+import "typeface-bebas-neue";
+import "typeface-barlow";
