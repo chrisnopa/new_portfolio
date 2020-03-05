@@ -17,7 +17,7 @@ class BlogRow extends Component {
         bg: {
             backgroundImage: 'none',
             '@media (min-width: 961px)': {
-                backgroundImage: `url(https://dazzling-franklin-9b45ac.netlify.com/${this.props.bg})`,
+                backgroundImage: `url(https://vibrant-mahavira-1aed2c.netlify.com/${this.props.bg})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center center'
               },

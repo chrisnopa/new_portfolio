@@ -161,7 +161,7 @@ const Blog3 = () => (
           mener sur la ligne et la tonalité éditoriale de la solution. Le projet
           a été présenté devant un jury d'UX professionnels. La vidéo de cette
           présentation est disponible{' '}
-          <a id="fancy-word" href="https://youtu.be/yhhDzUfGZzg">
+          <a id="fancy-word" target="_blank" href="https://youtu.be/YhhDzUfGZzg">
             ici
           </a>
           .

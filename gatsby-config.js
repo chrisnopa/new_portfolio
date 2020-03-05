@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Christophe Panon',
-    siteUrl: `https://www.chrispanon.me`,
+    siteUrl: `https://www.chrispanon.com`,
   },
   plugins: [
 
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-18174670-7",
+        trackingId: "",
       },
     },
     `gatsby-plugin-sitemap`

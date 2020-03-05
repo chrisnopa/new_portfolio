@@ -89,7 +89,7 @@ class Footer extends Component {
                 <div className={css(styles.contents)}>
                     <div className={css(styles.info)}>
                         <p className={css(styles.infoTitle)}>Email</p>
-                        <p className={css(styles.infoText)}>contact@chrispanon.me</p>
+                        <p className={css(styles.infoText)}>contact@chrispanon.com</p>
                         <p className={css(styles.copywrite)}>© Christophe Panon</p>
                     </div>
                     <div className={css(styles.links)}>
