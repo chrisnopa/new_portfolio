@@ -11,7 +11,7 @@ const About = () => (
       <div className="section-content">
         <h3>A propos</h3>
         <h2>Résolution & méthode</h2>
-        <a
+        {/* <a
           class="btn"
           href="/cv-français.pdf"
           download="cv-français.pdf"
@@ -22,7 +22,7 @@ const About = () => (
               <span>Consulter mon CV</span>
             </span>
           </span>
-        </a>
+        </a> */}
 
         <p>
           J’apprécie l'idée de prendre quelque chose de complexe et de le

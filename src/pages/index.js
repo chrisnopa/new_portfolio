@@ -8,6 +8,8 @@ import IntroBG from '../images/DSC_0561.jpg'
 import ContactIcon from '../images/icons/mail(1).png'
 import WorkIcon from '../images/icons/pencil(1).png'
 import AboutIcon from '../images/icons/sunglasses(1).png'
+// import Test from '../components/pdf.js'
+
 
 class IndexPage extends Component {
   constructor(props) {
@@ -33,10 +35,14 @@ class IndexPage extends Component {
               De formation éditoriale et gestion de projets numériques, j'ai eu
               l'occasion de travailler pour différents types de clients : ONG,
               institutions, entreprises... Tourné vers la recherche de
-              solutions, je suis désormais responsable de projets diitaux avec
-              un bagage technique et souhaitant oeuvrer comme Product Owner. 
-             <span id="fancy-word"> A l'écoute d'opportunités !</span>
+              solutions, je suis désormais responsable de projets digitaux avec
+              un bagage technique et souhaitant oeuvrer comme Product Owner.
+              <span id="fancy-word"> A l'écoute d'opportunités !</span>
             </p>
+            
+            {/* <div className="btn">
+              <Link to="/cv-français.pdf">Consulter mon CV.</Link>
+            </div>
             <a
               class="btn"
               href="/cv-français.pdf"
@@ -48,7 +54,7 @@ class IndexPage extends Component {
                   <span>Consulter mon CV</span>
                 </span>
               </span>
-            </a>
+            </a> */}
           </div>
           <div className="section-img">
             <img

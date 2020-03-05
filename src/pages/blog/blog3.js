@@ -18,5 +18,5 @@ export const frontmatter = {
   written: "09/25/2018",
   layoutType: "blog",
   category: "#ui #development",
-  path: "https://uxuimike.files.wordpress.com/2017/04/nielsen012.png?w=1180&h=300"
+  path: "p-freebank.jpg"
 }
