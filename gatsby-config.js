@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Christophe Panon',
+    title: 'Christophe Panon | Portfolio personnel',
     siteUrl: `https://www.chrispanon.com`,
   },
+
+  
   plugins: [
 
     'gatsby-plugin-react-helmet',
@@ -18,6 +20,13 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/static/`,
       },
     },
     'gatsby-transformer-javascript-frontmatter',

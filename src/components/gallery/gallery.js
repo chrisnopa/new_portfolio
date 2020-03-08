@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import compStyles from './gallery.module.css'
+import compStyles from './gallery.module.scss'
 
 import BlogRow from '../../components/blog-row'
 import Pill from '../../components/pill'

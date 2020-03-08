@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Layout from '../../components/layout/layout'
-import SecImg2 from '../../images/headbutt/headbutt02.jpg'
-import SecImg3 from '../../images/headbutt/headbutt03.jpg'
-import SecImg4 from '../../images/headbutt/headbutt04.jpg'
+// import SecImg2 from '../../images/headbutt/headbutt02.jpg'
+// import SecImg3 from '../../images/headbutt/headbutt03.jpg'
+// import SecImg4 from '../../images/headbutt/headbutt04.jpg'
 import SecImg5 from '../../images/headbutt/frame1.jpg'
 import SecImg6 from '../../images/headbutt/historique.jpg'
 import SecImg7 from '../../images/headbutt/cover.jpg'
@@ -12,6 +12,7 @@ import SecImg9 from '../../images/headbutt/persona2.jpg'
 import SecImg10 from '../../images/headbutt/empathy1.jpg'
 import SecImg11 from '../../images/headbutt/empathy2.jpg'
 import SecImg12 from '../../images/headbutt/Storyboard.jpg'
+import SecImg13 from '../../images/headbutt/experience-map.jpg'
 
 const Blog3 = () => (
   <Layout>
@@ -99,7 +100,6 @@ const Blog3 = () => (
           du projet et ont donné les enseignements suivants :
           <ul>
             <li>
-              
               Le compte joint vu par les personnes en couple est avant tout
               perçu comme une solution de facilité pour le quotidien mais
               devrait également les accompagner dans les projets à deux.
@@ -116,6 +116,14 @@ const Blog3 = () => (
           </ul>
         </p>
       </div>
+    </section>
+    <section className="section-single-image">
+      <figure>
+        <img src={SecImg13} alt="Experience map" />
+        <figcaption>
+          Experience Map réalisée suite aux entretiens utilisateurs
+        </figcaption>
+      </figure>
     </section>
     <section className="section-double section-reverse">
       <div className="section-img">
@@ -161,7 +169,11 @@ const Blog3 = () => (
           mener sur la ligne et la tonalité éditoriale de la solution. Le projet
           a été présenté devant un jury d'UX professionnels. La vidéo de cette
           présentation est disponible{' '}
-          <a id="fancy-word" target="_blank" href="https://youtu.be/YhhDzUfGZzg">
+          <a
+            id="fancy-word"
+            target="_blank"
+            href="https://youtu.be/YhhDzUfGZzg"
+          >
             ici
           </a>
           .
@@ -178,5 +190,5 @@ export const frontmatter = {
   written: '09/12/2019',
   layoutType: 'portfolio',
   category: '#ui #ux #projet',
-  path: 'p-freebank.jpg',
+  path: 'p-bishop.jpg',
 }

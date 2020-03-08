@@ -37,6 +37,8 @@ class IndexPage extends Component {
               institutions, entreprises... Tourné vers la recherche de
               solutions, je suis désormais responsable de projets digitaux avec
               un bagage technique et souhaitant oeuvrer comme Product Owner.
+              <br/>
+              
               <span id="fancy-word"> A l'écoute d'opportunités !</span>
             </p>
             

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import compStyles from './sectionparallax.module.css'
+import compStyles from './sectionparallax.module.scss'
 
 class Section extends Component {
-
+    css
     render() {
     
     return (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import compStyles from './hero.module.css'
+import compStyles from './hero.module.scss'
 
 class Hero extends Component {
 

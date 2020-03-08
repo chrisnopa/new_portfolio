@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Layout from '../components/layout/layout'
-
 import SecImg1 from '../images/about/sticky.jpg'
 import SecImg2 from '../images/about/uxui.jpg'
+
 
 const About = () => (
   <Layout>
@@ -23,7 +23,6 @@ const About = () => (
             </span>
           </span>
         </a> */}
-
         <p>
           J’apprécie l'idée de prendre quelque chose de complexe et de le
           décomposer en parties plus digestes, et surtout plus intelligibles.
@@ -37,6 +36,9 @@ const About = () => (
         <p>
           Le tournant est venu lorsque j'ai découvert l'UX et les processus structurés de conception
           <span id="fancy-word"> tournée vers et avec l'utilisateur</span>.
+        </p>
+        <p>
+          <strong id="fancy-word">CV COMING SOON</strong>
         </p>
       </div>
       <div className="section-img">
