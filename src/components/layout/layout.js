@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: 'Portfolio de Christophe Panon.' },
-            { name: 'keywords', content: 'ux, ui, user experience, product development, ux consultant' },
+            { name: 'keywords', content: 'ux, ui, user experience, product development' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
           ]}
         >

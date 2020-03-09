@@ -13,6 +13,8 @@ import SecImg10 from '../../images/headbutt/empathy1.jpg'
 import SecImg11 from '../../images/headbutt/empathy2.jpg'
 import SecImg12 from '../../images/headbutt/Storyboard.jpg'
 import SecImg13 from '../../images/headbutt/experience-map.jpg'
+import SecImg14 from '../../images/headbutt/value-proposition.jpg'
+import SecImg15 from '../../images/headbutt/enseignements.jpg'
 
 const Blog3 = () => (
   <Layout>
@@ -119,11 +121,25 @@ const Blog3 = () => (
     </section>
     <section className="section-single-image">
       <figure>
-        <img src={SecImg13} alt="Experience map" />
+        <img src={SecImg15} alt="Enseignement des entretiens" />
+        <figcaption>Enseignement des entretiens</figcaption>
+      </figure>
+    </section>
+    <section className="section-single-image">
+      <figure>
+        <img src={SecImg13} alt="Enseignement des entretiens" />
         <figcaption>
           Experience Map réalisée suite aux entretiens utilisateurs
         </figcaption>
       </figure>
+    </section>
+    <section>
+      <div className="section-single-image">
+        <figure>
+          <img src={SecImg14} alt="Proposition de valeur" />
+          <figcaption>Proposition de valeur</figcaption>
+        </figure>
+      </div>
     </section>
     <section className="section-double section-reverse">
       <div className="section-img">
@@ -137,7 +153,14 @@ const Blog3 = () => (
         </figure>
       </div>
     </section>
-
+    <section className="section-single-image">
+      <figure>
+        <img src={SecImg13} alt="Experience map" />
+        <figcaption>
+          Experience Map réalisée suite aux entretiens utilisateurs
+        </figcaption>
+      </figure>
+    </section>
     <section className="section-double section-reverse">
       <div className="section-content">
         <h2>Vision & Design</h2>

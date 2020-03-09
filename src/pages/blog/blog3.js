@@ -18,5 +18,5 @@ export const frontmatter = {
   written: "09/25/2018",
   layoutType: "blog",
   category: "#ui #development",
-  path: "p-freebank.jpg"
+  path: "cdn/p-freebank.jpg"
 }
