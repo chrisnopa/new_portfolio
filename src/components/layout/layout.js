@@ -27,7 +27,8 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Portfolio de Christophe Panon.' },
             { name: 'keywords', content: 'ux, ui, user experience, product development' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+            { name: 'viewport', content: 'width=device-width, initial-scale=1.0'},
+            { name: 'google-site-verification', content: 'FPl6dCc6PSh-noFfZ4KF7WOjRUWb5PPreRiew-ZaEZ8'},
           ]}
         >
           <html lang="en" />
