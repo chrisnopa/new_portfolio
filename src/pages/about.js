@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { graphql } from 'gatsby'
 import Layout from '../components/layout/layout'
 import SecImg1 from '../images/about/sticky.jpg'
 import SecImg2 from '../images/about/uxui.jpg'
@@ -40,7 +40,7 @@ const About = () => (
         <p>
           <strong id="fancy-word">CV COMING SOON</strong>
         </p>
-        <a href="/cv-français.pdf">Download the file from the static folder</a>
+
       </div>
       <div className="section-img">
         <img src={SecImg1} alt="UX/UI" />
