@@ -40,7 +40,7 @@ const About = () => (
         <p>
           <strong id="fancy-word">CV COMING SOON</strong>
         </p>
-        <a href="cv-français.pdf">Download the file from the static folder</a>
+        <a href="/cv-français.pdf">Download the file from the static folder</a>
       </div>
       <div className="section-img">
         <img src={SecImg1} alt="UX/UI" />
