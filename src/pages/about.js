@@ -1,28 +1,18 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+
 import Layout from '../components/layout/layout'
 import SecImg1 from '../images/about/sticky.jpg'
 import SecImg2 from '../images/about/uxui.jpg'
+import cv from '../resumes/cv.pdf'
 
 
 const About = () => (
   <Layout>
     <section className="section-double">
       <div className="section-content">
+
         <h3>A propos</h3>
         <h2>Résolution & méthode</h2>
-        {/* <a
-          class="btn"
-          href="/cv-français.pdf"
-          download="cv-français.pdf"
-          target="_blank"
-        >
-          <span>
-            <span>
-              <span>Consulter mon CV</span>
-            </span>
-          </span>
-        </a> */}
         <p>
           J’apprécie l'idée de prendre quelque chose de complexe et de le
           décomposer en parties plus digestes, et surtout plus intelligibles.
@@ -39,8 +29,19 @@ const About = () => (
         </p>
         <p>
           <strong id="fancy-word">CV COMING SOON</strong>
+          <a
+          class="btn"
+          href="/cv.pdf"
+          download="cv.pdf"
+          target="_blank"
+        >
+          <span>
+            <span>
+              <span>Consulter mon CV</span>
+            </span>
+          </span>
+        </a>
         </p>
-
       </div>
       <div className="section-img">
         <img src={SecImg1} alt="UX/UI" />
