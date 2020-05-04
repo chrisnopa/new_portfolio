@@ -8,7 +8,6 @@ import IntroBG from '../images/DSC_0561.jpg'
 import ContactIcon from '../images/icons/mail(1).png'
 import WorkIcon from '../images/icons/pencil(1).png'
 import AboutIcon from '../images/icons/sunglasses(1).png'
-// import Test from '../components/pdf.js'
 
 
 class IndexPage extends Component {
@@ -41,22 +40,6 @@ class IndexPage extends Component {
               
               <span id="fancy-word"> A l'écoute d'opportunités !</span>
             </p>
-            
-            {/* <div className="btn">
-              <Link to="/cv-français.pdf">Consulter mon CV.</Link>
-            </div>
-            <a
-              class="btn"
-              href="/cv-français.pdf"
-              download="cv-français.pdf"
-              target="_blank"
-            >
-              <span>
-                <span>
-                  <span>Consulter mon CV</span>
-                </span>
-              </span>
-            </a> */}
           </div>
           <div className="section-img">
             <img
