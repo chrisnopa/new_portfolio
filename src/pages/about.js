@@ -38,7 +38,7 @@ const DownloadsPage = () => {
           <p>
             Le tournant est venu lorsque j'ai découvert l'UX et les processus
             structurés de conception
-            <span id="fancy-word"> tournés vers l'utilisateur et avec lui.</span>.
+            <span id="fancy-word"> tournés vers l'utilisateur et avec lui</span>.
           </p>
           <ul class='btn'>
                     {data.allFile.edges.map((file, index) => {
