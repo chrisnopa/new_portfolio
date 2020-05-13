@@ -31,14 +31,14 @@ class IndexPage extends Component {
             <h1>Christophe Panon</h1>
             <h2>User Experience / Product Development</h2>
             <p>
-              De formation éditoriale et gestion de projets numériques, j'ai eu
+              Après avoir suivi une formation éditoriale et gestion de projets numériques, j'ai eu
               l'occasion de travailler pour différents types de clients : ONG,
               institutions, entreprises... Tourné vers la recherche de
               solutions, je suis désormais responsable de projets digitaux avec
-              un bagage technique et souhaitant oeuvrer comme Product Owner.
+              un bagage technique et souhaitant travailler en tant que Product Owner.
               <br/>
               
-              <span id="fancy-word"> A l'écoute d'opportunités !</span>
+              <span id="fancy-word"> À l’écoute d'opportunités !</span>
             </p>
           </div>
           <div className="section-img">
@@ -60,7 +60,7 @@ class IndexPage extends Component {
           <Link to="/about">
             <div className={compStyles.block}>
               <img src={AboutIcon} alt="Blog Icon" />
-              <h3>A propos</h3>
+              <h3>À propos</h3>
               Bio, CV.
             </div>
           </Link>

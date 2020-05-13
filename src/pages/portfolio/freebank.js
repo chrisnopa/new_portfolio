@@ -25,8 +25,8 @@ const Blog3 = () => (
       <div className="section-content">
         <h2>Projet</h2>
         <p>
-          FreeBank est un projet UX réalisé dans le cadre du mentoring UX du
-          Laptop et qui a permis de mettre en pratique l’ensemble des grandes
+          FreeBank est un projet UX, réalisé dans le cadre du mentoring UX du
+          Laptop, et qui a permis de mettre en pratique l’ensemble des grandes
           pratiques de l’UX Design. Ce projet s'est déroulé sur 9 semaines en
           part time.
         </p>
@@ -92,7 +92,7 @@ const Blog3 = () => (
           confronté ces intuitions aux utilisateurs cibles du projet, à travers
           une série d’entretiens qualitatifs d'environ 1h pour chaque
           interviewé. Ces entretiens ont été réalisés à l'aide d'un
-          questionnaire et d'un protocole établie à l'avance.
+          questionnaire et d'un protocole établis à l'avance.
         </p>
         <br />
         <p>
@@ -107,7 +107,7 @@ const Blog3 = () => (
               devrait également les accompagner dans les projets à deux.
             </li>
             <li>
-              Les utilisateurs souhaitent une meilleure lisibilités des
+              Les utilisateurs souhaitent une meilleure lisibilité des
               dépenses, et un système clair et engageant.
             </li>
             <li>

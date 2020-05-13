@@ -52,7 +52,7 @@ class Header extends Component {
                 to="/about"
                 activeStyle={{borderBottom: '1px solid rgb(204, 204, 204)'}}
                 >
-                A propos
+                À propos 
                 </Link>
             </li>
             <li >

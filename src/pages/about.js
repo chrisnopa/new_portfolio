@@ -22,12 +22,12 @@ const DownloadsPage = () => {
     <Layout>
       <section className="section-double">
         <div className="section-content">
-          <h3>A propos</h3>
+          <h3>À propos</h3>
           <h2>Résolution & méthode</h2>
           <p>
-            J’apprécie l'idée de prendre quelque chose de complexe et de le
+          J’apprécie l'idée de prendre quelque chose de complexe et de le
             décomposer en parties plus digestes, et surtout plus intelligibles.
-            Comprendre les variables en jeu et travailler sur la solution. J' ai
+            Comprendre les variables en jeu et travailler à la solution. J' ai
             eu une brève vie en tant que responsable de production dans
             l’audiovisuel et j'ai découvert assez que ce n'était pas le genre de
             problèmes qui m'intéressaient. Par la suite, je me suis lancé dans
@@ -38,7 +38,7 @@ const DownloadsPage = () => {
           <p>
             Le tournant est venu lorsque j'ai découvert l'UX et les processus
             structurés de conception
-            <span id="fancy-word"> tournée vers et avec l'utilisateur</span>.
+            <span id="fancy-word"> tournés vers l'utilisateur et avec lui.</span>.
           </p>
           <ul class='btn'>
                     {data.allFile.edges.map((file, index) => {
